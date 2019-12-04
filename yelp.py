@@ -1,5 +1,6 @@
 import requests
 import json
+import os
 
 api_key='rW11rA7zdWapU9FiLWzVDCMWzGIVoaZ3zH-owUmUwpPd_ot9NAMVLRn50AWmwWbAsiBu9vxEk_9u-aLuHQA_gxf7ZEXhFAMkaTJsusOZAIsGAJ8C3vr1AAzGGM7lXXYx'
 headers = {'Authorization': 'Bearer %s' % api_key}
@@ -33,9 +34,9 @@ for i in city_list:
 
     data = json.loads(req.text)
 
-    #writing to a json file
-    with open('yelp-restaurant-data.json', 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=4)
+    # #writing to a json file
+    # with open('yelp-restaurant-data.json', 'w', encoding='utf-8') as f:
+    #     json.dump(data, f, ensure_ascii=False, indent=4)
 
     # list of restaurants
     restaurants = data['businesses']
@@ -130,4 +131,8 @@ dict['yelp_data'] = yelp_data
 print(dict)
 
 
+# writing to json file
+
+with open('yelp-restaurant-data.json', 'w', encoding='utf-8') as f:
+    json.dump(dict, f, ensure_ascii=False, indent=4)
 
