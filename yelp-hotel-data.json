@@ -1,7 +1,8 @@
 {
     "yelp_data": [
         {
-            "New York": {
+            "city": "New York",
+            "results": {
                 "Top 5": [
                     "The Frederick Hotel",
                     "Hampton Inn Brooklyn/Downtown",
@@ -14,7 +15,8 @@
             }
         },
         {
-            "Los Angeles": {
+            "city": "Los Angeles",
+            "results": {
                 "Top 5": [
                     "Hampton Inn & Suites Los Angeles/Hollywood",
                     "Residence Inn by Marriott Los Angeles LAX/Century Boulevard",
@@ -27,7 +29,8 @@
             }
         },
         {
-            "Chicago": {
+            "city": "Chicago",
+            "results": {
                 "Top 5": [
                     "Virgin Hotels Chicago",
                     "Wicker Park Inn",
@@ -40,7 +43,8 @@
             }
         },
         {
-            "Houston": {
+            "city": "Houston",
+            "results": {
                 "Top 5": [
                     "Hotel ZaZa Houston",
                     "Embassy Suites by Hilton Houston Downtown",
@@ -53,7 +57,8 @@
             }
         },
         {
-            "Philadelphia": {
+            "city": "Philadelphia",
+            "results": {
                 "Top 5": [
                     "Alexander Inn",
                     "Aloft Philadelphia Downtown",
@@ -66,7 +71,8 @@
             }
         },
         {
-            "Phoenix": {
+            "city": "Phoenix",
+            "results": {
                 "Top 5": [
                     "Kimpton Palomar Hotel Phoenix Cityscape",
                     "Hilton Garden Inn Phoenix Downtown",
@@ -79,7 +85,8 @@
             }
         },
         {
-            "San Antonio": {
+            "city": "San Antonio",
+            "results": {
                 "Top 5": [
                     "Hotel Havana",
                     "Hotel Emma",
@@ -92,7 +99,8 @@
             }
         },
         {
-            "San Diego": {
+            "city": "San Diego",
+            "results": {
                 "Top 5": [
                     "Hotel Z",
                     "TownePlace Suites by Marriott San Diego Central",
@@ -105,7 +113,8 @@
             }
         },
         {
-            "Dallas": {
+            "city": "Dallas",
+            "results": {
                 "Top 5": [
                     "The Lumen",
                     "The Joule, Dallas",
@@ -118,7 +127,8 @@
             }
         },
         {
-            "San Jose": {
+            "city": "San Jose",
+            "results": {
                 "Top 5": [
                     "Wingate by Wyndham San Jose",
                     "Courtyard by Marriott San Jose Campbell",
@@ -131,7 +141,8 @@
             }
         },
         {
-            "Austin": {
+            "city": "Austin",
+            "results": {
                 "Top 5": [
                     "Hotel San José",
                     "Hampton Inn & Suites Austin @ The University/Capitol",
@@ -144,7 +155,8 @@
             }
         },
         {
-            "Indianapolis": {
+            "city": "Indianapolis",
+            "results": {
                 "Top 5": [
                     "JW Marriott Indianapolis",
                     "Drury Inn & Suites - Indianapolis",
@@ -157,7 +169,8 @@
             }
         },
         {
-            "Jacksonville": {
+            "city": "Jacksonville",
+            "results": {
                 "Top 5": [
                     "Hyatt Place Jacksonville Town Center",
                     "Residence Inn by Marriott",
@@ -170,7 +183,8 @@
             }
         },
         {
-            "San Francisco": {
+            "city": "San Francisco",
+            "results": {
                 "Top 5": [
                     "The Metro Hotel",
                     "Hayes Valley Inn",
@@ -183,7 +197,8 @@
             }
         },
         {
-            "Columbus": {
+            "city": "Columbus",
+            "results": {
                 "Top 5": [
                     "Hampton Inn & Suites Columbus/University Area",
                     "Hampton Inn & Suites Columbus-Downtown",
@@ -196,7 +211,8 @@
             }
         },
         {
-            "Charlotte": {
+            "city": "Charlotte",
+            "results": {
                 "Top 5": [
                     "Hilton Garden Inn Charlotte/SouthPark",
                     "Hyatt House Charlotte Center City",
@@ -209,7 +225,8 @@
             }
         },
         {
-            "Fort Worth": {
+            "city": "Fort Worth",
+            "results": {
                 "Top 5": [
                     "Embassy Suites by Hilton Fort Worth Downtown",
                     "Hilton Garden Inn Fort Worth Medical Center",
@@ -222,7 +239,8 @@
             }
         },
         {
-            "Detroit": {
+            "city": "Detroit",
+            "results": {
                 "Top 5": [
                     "Aloft Detroit at the David Whitney",
                     "El Moore",
@@ -235,7 +253,8 @@
             }
         },
         {
-            "El Paso": {
+            "city": "El Paso",
+            "results": {
                 "Top 5": [
                     "Hampton Inn & Suites El Paso/East",
                     "Home2 Suites By Hilton El Paso Airport",
@@ -248,7 +267,8 @@
             }
         },
         {
-            "Memphis": {
+            "city": "Memphis",
+            "results": {
                 "Top 5": [
                     "Hampton Inn & Suites Memphis-Beale Street",
                     "The Peabody Memphis",
@@ -261,7 +281,8 @@
             }
         },
         {
-            "Seattle": {
+            "city": "Seattle",
+            "results": {
                 "Top 5": [
                     "The Maxwell Hotel",
                     "Hotel FIVE",
@@ -274,7 +295,8 @@
             }
         },
         {
-            "Denver": {
+            "city": "Denver",
+            "results": {
                 "Top 5": [
                     "The Maven Hotel",
                     "The Jacquard, Autograph Collection",
@@ -287,7 +309,8 @@
             }
         },
         {
-            "Washington": {
+            "city": "Washington",
+            "results": {
                 "Top 5": [
                     "Hotel Roslyn",
                     "Aster Inn",
@@ -300,7 +323,8 @@
             }
         },
         {
-            "Boston": {
+            "city": "Boston",
+            "results": {
                 "Top 5": [
                     "Courtyard by Marriott Boston Downtown/North Station",
                     "The Lenox Hotel",
@@ -313,7 +337,8 @@
             }
         },
         {
-            "Nashville": {
+            "city": "Nashville",
+            "results": {
                 "Top 5": [
                     "Hyatt Place Nashville Downtown",
                     "The Hermitage Hotel",
@@ -326,7 +351,8 @@
             }
         },
         {
-            "Baltimore": {
+            "city": "Baltimore",
+            "results": {
                 "Top 5": [
                     "Hotel Indigo Baltimore Downtown",
                     "The Ivy Hotel",
@@ -339,7 +365,8 @@
             }
         },
         {
-            "Oklahoma City": {
+            "city": "Oklahoma City",
+            "results": {
                 "Top 5": [
                     "Holiday Inn Express & Suites Oklahoma City Dwtn - Bricktown",
                     "Colcord Hotel",
@@ -352,7 +379,8 @@
             }
         },
         {
-            "Louisville": {
+            "city": "Louisville",
+            "results": {
                 "Top 5": [
                     "Aloft Louisville Downtown",
                     "Hilton Garden Inn Louisville Mall of St. Matthews",
@@ -365,7 +393,8 @@
             }
         },
         {
-            "Portland": {
+            "city": "Portland",
+            "results": {
                 "Top 5": [
                     "The Society Hotel",
                     "Caravan- The Tiny House Hotel",
@@ -378,7 +407,8 @@
             }
         },
         {
-            "Las Vegas": {
+            "city": "Las Vegas",
+            "results": {
                 "Top 5": [
                     "M Resort Spa Casino",
                     "Fairfield Inn & Suites Las Vegas Northwest",
@@ -391,7 +421,8 @@
             }
         },
         {
-            "Milwaukee": {
+            "city": "Milwaukee",
+            "results": {
                 "Top 5": [
                     "Hilton Garden Inn Milwaukee Downtown",
                     "The Iron Horse Hotel",
@@ -404,7 +435,8 @@
             }
         },
         {
-            "Albuquerque": {
+            "city": "Albuquerque",
+            "results": {
                 "Top 5": [
                     "Sandia Peak Inn",
                     "SpringHill Suites by Marriott Albuquerque North/Journal Center",
@@ -417,7 +449,8 @@
             }
         },
         {
-            "Tucson": {
+            "city": "Tucson",
+            "results": {
                 "Top 5": [
                     "Hotel McCoy",
                     "TownePlace Suites by Marriott Tucson Williams Centre",
@@ -430,7 +463,8 @@
             }
         },
         {
-            "Fresno": {
+            "city": "Fresno",
+            "results": {
                 "Top 5": [
                     "Garden Inn & Suites",
                     "La Quinta by Wyndham Fresno Riverpark",
@@ -443,7 +477,8 @@
             }
         },
         {
-            "Sacramento": {
+            "city": "Sacramento",
+            "results": {
                 "Top 5": [
                     "Hampton Inn & Suites Sacramento at CSUS",
                     "The Greens Hotel",
@@ -456,7 +491,8 @@
             }
         },
         {
-            "Long Beach": {
+            "city": "Long Beach",
+            "results": {
                 "Top 5": [
                     "Hotel Royal",
                     "Hotel CURRENT",
@@ -469,7 +505,8 @@
             }
         },
         {
-            "Kansas City": {
+            "city": "Kansas City",
+            "results": {
                 "Top 5": [
                     "Best Western Premier KC Speedway Inn & Suites",
                     "Hotel Indigo Kansas City Downtown",
@@ -482,7 +519,8 @@
             }
         },
         {
-            "Mesa": {
+            "city": "Mesa",
+            "results": {
                 "Top 5": [
                     "Residence Inn by Marriott",
                     "Four Points by Sheraton at Phoenix Mesa Gateway Airport",
@@ -495,7 +533,8 @@
             }
         },
         {
-            "Virginia Beach": {
+            "city": "Virginia Beach",
+            "results": {
                 "Top 5": [
                     "Comfort Inn & Suites Virginia Beach - Oceanfront",
                     "Residence Inn by Marriott Virginia Beach Town Center",
@@ -508,7 +547,8 @@
             }
         },
         {
-            "Atlanta": {
+            "city": "Atlanta",
+            "results": {
                 "Top 5": [
                     "Four Seasons Hotel Atlanta",
                     "Hampton Inn & Suites by Hilton Atlanta Perimeter Dunwoody",
@@ -521,7 +561,8 @@
             }
         },
         {
-            "Colorado Springs": {
+            "city": "Colorado Springs",
+            "results": {
                 "Top 5": [
                     "Hilton Garden Inn - Colorado Springs",
                     "Garden of the Gods",
@@ -534,7 +575,8 @@
             }
         },
         {
-            "Omaha": {
+            "city": "Omaha",
+            "results": {
                 "Top 5": [
                     "Even Hotel Omaha Downtown",
                     "Omaha Marriott Downtown at the Capitol District",
@@ -547,7 +589,8 @@
             }
         },
         {
-            "Raleigh": {
+            "city": "Raleigh",
+            "results": {
                 "Top 5": [
                     "Hyatt House Raleigh North Hills",
                     "Hampton Inn & Suites Raleigh Downtown",
@@ -560,7 +603,8 @@
             }
         },
         {
-            "Miami": {
+            "city": "Miami",
+            "results": {
                 "Top 5": [
                     "Hampton Inn & Suites by Hilton Miami Brickell Downtown",
                     "Hilton Miami Dadeland",
@@ -573,7 +617,8 @@
             }
         },
         {
-            "Oakland": {
+            "city": "Oakland",
+            "results": {
                 "Top 5": [
                     "Best Western Plus Bayside Hotel",
                     "Waterfront Hotel",
@@ -586,7 +631,8 @@
             }
         },
         {
-            "Minneapolis": {
+            "city": "Minneapolis",
+            "results": {
                 "Top 5": [
                     "Elliot Park Hotel, Autograph Collection",
                     "Hewing Hotel",
@@ -599,7 +645,8 @@
             }
         },
         {
-            "Tulsa": {
+            "city": "Tulsa",
+            "results": {
                 "Top 5": [
                     "Ambassador Hotel Tulsa, Autograph Collection",
                     "Courtyard Tulsa Woodland Hills",
@@ -612,7 +659,8 @@
             }
         },
         {
-            "Cleveland": {
+            "city": "Cleveland",
+            "results": {
                 "Top 5": [
                     "Drury Plaza Hotel - Cleveland",
                     "The Bumpus House",
@@ -625,7 +673,8 @@
             }
         },
         {
-            "Wichita": {
+            "city": "Wichita",
+            "results": {
                 "Top 5": [
                     "Drury Plaza Hotel Broadview Wichita",
                     "Holiday Inn Express Wichita South",
@@ -638,7 +687,8 @@
             }
         },
         {
-            "Arlington": {
+            "city": "Arlington",
+            "results": {
                 "Top 5": [
                     "Residence Inn Marriott",
                     "WhyHotel Arlington Ballston",
@@ -651,7 +701,8 @@
             }
         },
         {
-            "New Orleans": {
+            "city": "New Orleans",
+            "results": {
                 "Top 5": [
                     "Hotel Le Marais",
                     "Courtyard by Marriott New Orleans French Quarter/Iberville",
@@ -664,7 +715,8 @@
             }
         },
         {
-            "Bakersfield": {
+            "city": "Bakersfield",
+            "results": {
                 "Top 5": [
                     "Padre Hotel",
                     "Holiday Inn Express Bakersfield",
@@ -677,7 +729,8 @@
             }
         },
         {
-            "Tampa": {
+            "city": "Tampa",
+            "results": {
                 "Top 5": [
                     "Fairfield Inn & Suites by Marriott Tampa Westshore/Airport",
                     "Tampa Marriott Water Street",
@@ -690,7 +743,8 @@
             }
         },
         {
-            "Honolulu": {
+            "city": "Honolulu",
+            "results": {
                 "Top 5": [
                     "Halekulani",
                     "The Kahala Hotel & Resort",
@@ -703,7 +757,8 @@
             }
         },
         {
-            "Aurora": {
+            "city": "Aurora",
+            "results": {
                 "Top 5": [
                     "Holiday Inn Express & Suites Aurora - Naperville",
                     "Hampton Inn & Suites Chicago/Aurora",
@@ -716,7 +771,8 @@
             }
         },
         {
-            "Anaheim": {
+            "city": "Anaheim",
+            "results": {
                 "Top 5": [
                     "Courtyard by Marriott Anaheim Theme Park Entrance",
                     "Ayres Hotel Anaheim",
@@ -729,7 +785,8 @@
             }
         },
         {
-            "Santa Ana": {
+            "city": "Santa Ana",
+            "results": {
                 "Top 5": [
                     "Holiday Inn Express & Suites Santa Ana - Orange County",
                     "Courtyard by Marriott Santa Ana Orange County",
@@ -742,7 +799,8 @@
             }
         },
         {
-            "St Louis": {
+            "city": "St Louis",
+            "results": {
                 "Top 5": [
                     "Hampton Inn & Suites St. Louis/South I-55",
                     "Moonrise Hotel",
@@ -755,7 +813,8 @@
             }
         },
         {
-            "Riverside": {
+            "city": "Riverside",
+            "results": {
                 "Top 5": [
                     "Springhill suites Dayton Beavercreek",
                     "Jailhouse Suites",
@@ -768,7 +827,8 @@
             }
         },
         {
-            "Corpus Christi": {
+            "city": "Corpus Christi",
+            "results": {
                 "Top 5": [
                     "Capri Beach Hotel",
                     "Hampton Inn & Suites Corpus Christi",
@@ -781,7 +841,8 @@
             }
         },
         {
-            "Lexington": {
+            "city": "Lexington",
+            "results": {
                 "Top 5": [
                     "21c Museum Hotel",
                     "Holiday Inn Express & Suites Lexington-Downtown/University",
@@ -794,7 +855,8 @@
             }
         },
         {
-            "Pittsburgh": {
+            "city": "Pittsburgh",
+            "results": {
                 "Top 5": [
                     "Drury Plaza Hotel Pittsburgh Downtown",
                     "Kimpton Hotel Monaco Pittsburgh",
@@ -807,7 +869,8 @@
             }
         },
         {
-            "Anchorage": {
+            "city": "Anchorage",
+            "results": {
                 "Top 5": [
                     "Embassy Suites by Hilton Anchorage",
                     "Hyatt House Anchorage",
@@ -820,7 +883,8 @@
             }
         },
         {
-            "Stockton": {
+            "city": "Stockton",
+            "results": {
                 "Top 5": [
                     "Residence Inn by Marriott Stockton",
                     "University Plaza Waterfront Hotel",
@@ -833,7 +897,8 @@
             }
         },
         {
-            "Cincinnati": {
+            "city": "Cincinnati",
+            "results": {
                 "Top 5": [
                     "Hampton Inn & Suites Cincinnati-Downtown",
                     "Residence Inn by Marriott Cincinnati Downtown/The Phelps",
@@ -846,7 +911,8 @@
             }
         },
         {
-            "Saint Paul": {
+            "city": "Saint Paul",
+            "results": {
                 "Top 5": [
                     "Celeste St. Paul Hotel + Bar",
                     "Hampton Inn & Suites Downtown St. Paul",
@@ -859,7 +925,8 @@
             }
         },
         {
-            "Toledo": {
+            "city": "Toledo",
+            "results": {
                 "Top 5": [
                     "Hampton Inn & Suites Toledo/Westgate",
                     "Renaissance Toledo Downtown Hotel",
@@ -872,7 +939,8 @@
             }
         },
         {
-            "Greensboro": {
+            "city": "Greensboro",
+            "results": {
                 "Top 5": [
                     "Hampton Inn & Suites Greensboro/Coliseum Area",
                     "Proximity Hotel",
@@ -885,7 +953,8 @@
             }
         },
         {
-            "Newark": {
+            "city": "Newark",
+            "results": {
                 "Top 5": [
                     "Courtyard by Marriott Newark Downtown",
                     "Hampton Inn & Suites Newark - Harrison & Riverwalk",
@@ -898,7 +967,8 @@
             }
         },
         {
-            "Plano": {
+            "city": "Plano",
+            "results": {
                 "Top 5": [
                     "Hampton Inn & Suites Dallas/Plano-East",
                     "Dallas/Plano Marriott at Legacy Town Center",
@@ -911,7 +981,8 @@
             }
         },
         {
-            "Henderson": {
+            "city": "Henderson",
+            "results": {
                 "Top 5": [
                     "M Resort Spa Casino",
                     "Residence Inn by Marriott",
@@ -924,7 +995,8 @@
             }
         },
         {
-            "Lincoln": {
+            "city": "Lincoln",
+            "results": {
                 "Top 5": [
                     "Best Western Plus Lincoln Inn & Suites",
                     "Fairfield Inn & Suites Lincoln Southeast",
@@ -937,7 +1009,8 @@
             }
         },
         {
-            "Buffalo": {
+            "city": "Buffalo",
+            "results": {
                 "Top 5": [
                     "Hampton Inn & Suites Buffalo Downtown",
                     "Buffalo Marriott HARBORCENTER",
@@ -950,7 +1023,8 @@
             }
         },
         {
-            "Jersey City": {
+            "city": "Jersey City",
+            "results": {
                 "Top 5": [
                     "Residence Inn by Marriott Jersey City",
                     "DoubleTree by Hilton Hotel & Suites Jersey City",
@@ -963,7 +1037,8 @@
             }
         },
         {
-            "Chula Vista": {
+            "city": "Chula Vista",
+            "results": {
                 "Top 5": [
                     "Residence Inn By Marriott San Diego Chula Vista",
                     "Ayres Hotel Chula Vista",
@@ -976,7 +1051,8 @@
             }
         },
         {
-            "Fort Wayne": {
+            "city": "Fort Wayne",
+            "results": {
                 "Top 5": [
                     "Courtyard Fort Wayne Downtown at Grand Wayne Convention Center",
                     "Comfort Suites North",
@@ -989,7 +1065,8 @@
             }
         },
         {
-            "Orlando": {
+            "city": "Orlando",
+            "results": {
                 "Top 5": [
                     "Hampton Inn & Suites Orlando Airport @ Gateway Village",
                     "The Delaney Hotel",
@@ -1002,7 +1079,8 @@
             }
         },
         {
-            "St Petersburg": {
+            "city": "St Petersburg",
+            "results": {
                 "Top 5": [
                     "Hollander Hotel",
                     "The Vinoy Renaissance St. Petersburg Resort & Golf Club",
@@ -1015,7 +1093,8 @@
             }
         },
         {
-            "Chandler": {
+            "city": "Chandler",
+            "results": {
                 "Top 5": [
                     "Hampton Inn & Suites Phoenix Chandler-Fashion Center AZ",
                     "Cambria Hotel Phoenix Chandler - Fashion Center",
@@ -1028,7 +1107,8 @@
             }
         },
         {
-            "Laredo": {
+            "city": "Laredo",
+            "results": {
                 "Top 5": [
                     "Best Western Plus Laredo Inn & Suites",
                     "La Posada Hotel",
@@ -1041,7 +1121,8 @@
             }
         },
         {
-            "Norfolk": {
+            "city": "Norfolk",
+            "results": {
                 "Top 5": [
                     "Hilton Norfolk THE MAIN",
                     "Residence Inn Norfolk Downtown",
@@ -1054,7 +1135,8 @@
             }
         },
         {
-            "Durham": {
+            "city": "Durham",
+            "results": {
                 "Top 5": [
                     "Hilton Garden Inn Durham/University Medical Center",
                     "21c Museum Hotel Durham",
@@ -1067,7 +1149,8 @@
             }
         },
         {
-            "Madison": {
+            "city": "Madison",
+            "results": {
                 "Top 5": [
                     "Hampton Inn & Suites Madison / Downtown",
                     "Hotel Indigo Madison Downtown",
@@ -1080,7 +1163,8 @@
             }
         },
         {
-            "Lubbock": {
+            "city": "Lubbock",
+            "results": {
                 "Top 5": [
                     "Hampton Inn & Suites Lubbock Southwest",
                     "Hilton Garden Inn Lubbock",
@@ -1093,7 +1177,8 @@
             }
         },
         {
-            "Irvine": {
+            "city": "Irvine",
+            "results": {
                 "Top 5": [
                     "Courtyard by Marriott Irvine Spectrum",
                     "Hyatt House Irvine / John Wayne Airport",
@@ -1106,7 +1191,8 @@
             }
         },
         {
-            "Winston–Salem": {
+            "city": "Winston–Salem",
+            "results": {
                 "Top 5": [
                     "Hampton Inn and Suites-Winston-Salem/University Area NC",
                     "Kimpton Cardinal Hotel",
@@ -1119,7 +1205,8 @@
             }
         },
         {
-            "Glendale": {
+            "city": "Glendale",
+            "results": {
                 "Top 5": [
                     "Embassy Suites by Hilton Los Angeles Glendale",
                     "Hyatt Place - Glendale",
@@ -1132,7 +1219,8 @@
             }
         },
         {
-            "Garland": {
+            "city": "Garland",
+            "results": {
                 "Top 5": [
                     "Holiday Inn Express & Suites Garland E - Lake Hubbard I30",
                     "La Quinta by Wyndham Garland Harbor Point",
@@ -1145,7 +1233,8 @@
             }
         },
         {
-            "Hialeah": {
+            "city": "Hialeah",
+            "results": {
                 "Top 5": [
                     "Courtyard by Marriott Miami Lakes",
                     "Executive Palace Hotel",
@@ -1158,7 +1247,8 @@
             }
         },
         {
-            "Reno": {
+            "city": "Reno",
+            "results": {
                 "Top 5": [
                     "Peppermill Reno",
                     "The Jesse",
@@ -1171,7 +1261,8 @@
             }
         },
         {
-            "Chesapeake": {
+            "city": "Chesapeake",
+            "results": {
                 "Top 5": [
                     "Hyatt Place Chesapeake/Greenbrier",
                     "Hampton Inn & Suites Chesapeake-Battlefield Blvd",
@@ -1184,7 +1275,8 @@
             }
         },
         {
-            "Gilbert": {
+            "city": "Gilbert",
+            "results": {
                 "Top 5": [
                     "Hampton Inn & Suites Phoenix/Gilbert",
                     "Home2 Suites by Hilton Gilbert",
@@ -1197,7 +1289,8 @@
             }
         },
         {
-            "Baton Rouge": {
+            "city": "Baton Rouge",
+            "results": {
                 "Top 5": [
                     "Drury Inn & Suites Baton Rouge",
                     "WATERMARK Baton Rouge, Autograph Collection",
@@ -1210,7 +1303,8 @@
             }
         },
         {
-            "Irving": {
+            "city": "Irving",
+            "results": {
                 "Top 5": [
                     "Residence Inn by Marriott Dallas DFW Airport South/Irving",
                     "La Quinta by Wyndham Dallas - Las Colinas",
@@ -1223,7 +1317,8 @@
             }
         },
         {
-            "Scottsdale": {
+            "city": "Scottsdale",
+            "results": {
                 "Top 5": [
                     "Four Seasons Resort Scottsdale at Troon North",
                     "Acacia At Four Seasons Resort Scottsdale At Troon North",
@@ -1236,7 +1331,8 @@
             }
         },
         {
-            "North Las Vegas": {
+            "city": "North Las Vegas",
+            "results": {
                 "Top 5": [
                     "SpringHill Suites by Marriott Las Vegas North Speedway",
                     "Best Western Plus North Las Vegas Inn & Suites",
@@ -1249,7 +1345,8 @@
             }
         },
         {
-            "Fremont": {
+            "city": "Fremont",
+            "results": {
                 "Top 5": [
                     "SpringHill Suites Newark Fremont",
                     "Hyatt Place Fremont/ Silicon Valley",
@@ -1262,7 +1359,8 @@
             }
         },
         {
-            "Boise": {
+            "city": "Boise",
+            "results": {
                 "Top 5": [
                     "Hampton Inn & Suites Boise-Downtown",
                     "Oxford Suites Boise",
@@ -1275,7 +1373,8 @@
             }
         },
         {
-            "Richmond": {
+            "city": "Richmond",
+            "results": {
                 "Top 5": [
                     "Drury Plaza Hotel",
                     "The Westin Richmond",
@@ -1288,7 +1387,8 @@
             }
         },
         {
-            "San Bernardino": {
+            "city": "San Bernardino",
+            "results": {
                 "Top 5": [
                     "Hampton Inn & Suites San Bernardino",
                     "DoubleTree by Hilton Hotel San Bernardino",
