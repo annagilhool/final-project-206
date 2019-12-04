@@ -1,0 +1,1404 @@
+{
+    "yelp_data": [
+        {
+            "city": "New York",
+            "results": {
+                "Top 5": [
+                    "The Frederick Hotel",
+                    "Hampton Inn Brooklyn/Downtown",
+                    "Casablanca Hotel",
+                    "Insignia Hotel, an Ascend Hotel Collection Member",
+                    "Hotel 50 Bowery NYC"
+                ],
+                "Average Rating": 4.1,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Los Angeles",
+            "results": {
+                "Top 5": [
+                    "Hampton Inn & Suites Los Angeles/Hollywood",
+                    "Residence Inn by Marriott Los Angeles LAX/Century Boulevard",
+                    "Magic Castle Hotel",
+                    "Hotel Normandie",
+                    "New Seoul Hotel"
+                ],
+                "Average Rating": 4.2,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Chicago",
+            "results": {
+                "Top 5": [
+                    "Virgin Hotels Chicago",
+                    "Wicker Park Inn",
+                    "The Guesthouse Hotel",
+                    "Courtyard by Marriott Chicago Downtown/Magnificent Mile",
+                    "Ace Hotel - Chicago"
+                ],
+                "Average Rating": 4.5,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Houston",
+            "results": {
+                "Top 5": [
+                    "Hotel ZaZa Houston",
+                    "Embassy Suites by Hilton Houston Downtown",
+                    "Homewood Suites by Hilton Houston Downtown",
+                    "AC Hotels by Marriott Houston Downtown",
+                    "The Post Oak Hotel at Uptown Houston"
+                ],
+                "Average Rating": 4.4,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Philadelphia",
+            "results": {
+                "Top 5": [
+                    "Alexander Inn",
+                    "Aloft Philadelphia Downtown",
+                    "Best Western Plus Independence Park Hotel",
+                    "Kimpton Hotel Monaco Philadelphia",
+                    "Holiday Inn Philadelphia W - Drexel Hill"
+                ],
+                "Average Rating": 4.4,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Phoenix",
+            "results": {
+                "Top 5": [
+                    "Kimpton Palomar Hotel Phoenix Cityscape",
+                    "Hilton Garden Inn Phoenix Downtown",
+                    "Renaissance Phoenix Downtown Hotel",
+                    "FOUND:RE Phoenix",
+                    "The Westin Phoenix Downtown"
+                ],
+                "Average Rating": 4.0,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "San Antonio",
+            "results": {
+                "Top 5": [
+                    "Hotel Havana",
+                    "Hotel Emma",
+                    "Drury Plaza Hotel Riverwalk - San Antonio",
+                    "Mokara Hotel and Spa",
+                    "Drury Plaza Hotel San Antonio North Stone Oak"
+                ],
+                "Average Rating": 4.3,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "San Diego",
+            "results": {
+                "Top 5": [
+                    "Hotel Z",
+                    "TownePlace Suites by Marriott San Diego Central",
+                    "The Sofia Hotel",
+                    "Blue Sea Beach Hotel",
+                    "Mudville Flats Boutique Hotel"
+                ],
+                "Average Rating": 4.3,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Dallas",
+            "results": {
+                "Top 5": [
+                    "The Lumen",
+                    "The Joule, Dallas",
+                    "Omni Dallas Hotel",
+                    "The Highland Dallas, Curio Collection by Hilton",
+                    "Homewood Suites by Hilton Dallas Downtown, TX"
+                ],
+                "Average Rating": 4.0,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "San Jose",
+            "results": {
+                "Top 5": [
+                    "Wingate by Wyndham San Jose",
+                    "Courtyard by Marriott San Jose Campbell",
+                    "Four Points by Sheraton San Jose Downtown",
+                    "Hotel Valencia Santana Row",
+                    "Best Western Lanai Garden Inn & Suites"
+                ],
+                "Average Rating": 3.9,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Austin",
+            "results": {
+                "Top 5": [
+                    "Hotel San José",
+                    "Hampton Inn & Suites Austin @ The University/Capitol",
+                    "Kimber Modern",
+                    "Hyatt Place Austin Downtown",
+                    "Element Austin Downtown"
+                ],
+                "Average Rating": 4.5,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Indianapolis",
+            "results": {
+                "Top 5": [
+                    "JW Marriott Indianapolis",
+                    "Drury Inn & Suites - Indianapolis",
+                    "Hotel Broad Ripple",
+                    "Ironworks Hotel Indianapolis",
+                    "Home2 Suites by Hilton Indianapolis Downtown"
+                ],
+                "Average Rating": 4.3,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Jacksonville",
+            "results": {
+                "Top 5": [
+                    "Hyatt Place Jacksonville Town Center",
+                    "Residence Inn by Marriott",
+                    "Hampton Inn Jacksonville South/I-95 at JTB",
+                    "Courtyard by Marriott",
+                    "Hotel Indigo Jacksonville Deerwood Park"
+                ],
+                "Average Rating": 4.4,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "San Francisco",
+            "results": {
+                "Top 5": [
+                    "The Metro Hotel",
+                    "Hayes Valley Inn",
+                    "Inn At Market",
+                    "Grand Hyatt At SFO",
+                    "Omni San Francisco Hotel"
+                ],
+                "Average Rating": 4.6,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Columbus",
+            "results": {
+                "Top 5": [
+                    "Hampton Inn & Suites Columbus/University Area",
+                    "Hampton Inn & Suites Columbus-Downtown",
+                    "The Blackwell",
+                    "Fairfield Inn & Suites by Marriott Columbus Dublin",
+                    "Hotel LeVeque, Autograph Collection"
+                ],
+                "Average Rating": 4.3,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Charlotte",
+            "results": {
+                "Top 5": [
+                    "Hilton Garden Inn Charlotte/SouthPark",
+                    "Hyatt House Charlotte Center City",
+                    "Hampton Inn & Suites Charlotte/South Park at Phillips Place",
+                    "The Ivey's Hotel",
+                    "AC Hotel by Marriott Charlotte SouthPark"
+                ],
+                "Average Rating": 4.3,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Fort Worth",
+            "results": {
+                "Top 5": [
+                    "Embassy Suites by Hilton Fort Worth Downtown",
+                    "Hilton Garden Inn Fort Worth Medical Center",
+                    "Miss Molly's Hotel",
+                    "Hyatt Place Fort Worth Historic Stockyards",
+                    "Hampton Inn & Suites Fort Worth Downtown"
+                ],
+                "Average Rating": 4.3,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Detroit",
+            "results": {
+                "Top 5": [
+                    "Aloft Detroit at the David Whitney",
+                    "El Moore",
+                    "Element Detroit at The Metropolitan",
+                    "Detroit Foundation Hotel",
+                    "The Westin Book Cadillac Detroit"
+                ],
+                "Average Rating": 4.4,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "El Paso",
+            "results": {
+                "Top 5": [
+                    "Hampton Inn & Suites El Paso/East",
+                    "Home2 Suites By Hilton El Paso Airport",
+                    "Staybridge Suites El Paso Airport Area",
+                    "Stanton House",
+                    "Holiday Inn Express & Suites El Paso West"
+                ],
+                "Average Rating": 4.3,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Memphis",
+            "results": {
+                "Top 5": [
+                    "Hampton Inn & Suites Memphis-Beale Street",
+                    "The Peabody Memphis",
+                    "La Quinta by Wyndham Memphis Downtown",
+                    "Residence Inn By Marriott",
+                    "River Inn of Harbor Town"
+                ],
+                "Average Rating": 4.2,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Seattle",
+            "results": {
+                "Top 5": [
+                    "The Maxwell Hotel",
+                    "Hotel FIVE",
+                    "Loews Hotel 1000",
+                    "Kimpton Hotel Vintage Seattle",
+                    "Inn At the Market"
+                ],
+                "Average Rating": 4.3,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Denver",
+            "results": {
+                "Top 5": [
+                    "The Maven Hotel",
+                    "The Jacquard, Autograph Collection",
+                    "The Westin Denver International Airport",
+                    "the ART, a hotel Denver",
+                    "The Oxford Hotel"
+                ],
+                "Average Rating": 4.2,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Washington",
+            "results": {
+                "Top 5": [
+                    "Hotel Roslyn",
+                    "Aster Inn",
+                    "Best Western Snowcap Lodge",
+                    "Waterspring Inn",
+                    "The Spruce Moose"
+                ],
+                "Average Rating": 4.6,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Boston",
+            "results": {
+                "Top 5": [
+                    "Courtyard by Marriott Boston Downtown/North Station",
+                    "The Lenox Hotel",
+                    "The Verb Hotel",
+                    "Residence Inn by Marriott Boston Back Bay/Fenway",
+                    "No. 284"
+                ],
+                "Average Rating": 4.4,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Nashville",
+            "results": {
+                "Top 5": [
+                    "Hyatt Place Nashville Downtown",
+                    "The Hermitage Hotel",
+                    "The 404 Hotel",
+                    "Homewood Suites by Hilton Nashville Vanderbilt, TN",
+                    "Hyatt House Nashville at Vanderbilt"
+                ],
+                "Average Rating": 4.4,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Baltimore",
+            "results": {
+                "Top 5": [
+                    "Hotel Indigo Baltimore Downtown",
+                    "The Ivy Hotel",
+                    "Kimpton Hotel Monaco Baltimore Inner Harbor",
+                    "Sagamore Pendry Baltimore",
+                    "Residence Inn by Marriott Baltimore Downtown/ Inner Harbor"
+                ],
+                "Average Rating": 4.1,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Oklahoma City",
+            "results": {
+                "Top 5": [
+                    "Holiday Inn Express & Suites Oklahoma City Dwtn - Bricktown",
+                    "Colcord Hotel",
+                    "Hampton Inn & Suites Oklahoma City-Bricktown",
+                    "Ambassador Hotel Oklahoma City, Autograph Collection",
+                    "Embassy Suites by Hilton Oklahoma City Downtown Medical Center"
+                ],
+                "Average Rating": 4.2,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Louisville",
+            "results": {
+                "Top 5": [
+                    "Aloft Louisville Downtown",
+                    "Hilton Garden Inn Louisville Mall of St. Matthews",
+                    "AC Hotel by Marriott",
+                    "The Brown Hotel",
+                    "Louisville Bourbon Inn"
+                ],
+                "Average Rating": 4.3,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Portland",
+            "results": {
+                "Top 5": [
+                    "The Society Hotel",
+                    "Caravan- The Tiny House Hotel",
+                    "Hampton Inn & Suites Portland-Pearl District",
+                    "Hotel Rose",
+                    "Kimpton Hotel Vintage Portland"
+                ],
+                "Average Rating": 4.4,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Las Vegas",
+            "results": {
+                "Top 5": [
+                    "M Resort Spa Casino",
+                    "Fairfield Inn & Suites Las Vegas Northwest",
+                    "The Cosmopolitan of Las Vegas",
+                    "Buffalo Bill's Resort & Casino",
+                    "Green Valley Ranch Resort Spa and Casino"
+                ],
+                "Average Rating": 3.7,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Milwaukee",
+            "results": {
+                "Top 5": [
+                    "Hilton Garden Inn Milwaukee Downtown",
+                    "The Iron Horse Hotel",
+                    "The Brewhouse Inn & Suites",
+                    "Saint Kate - The Arts Hotel",
+                    "Homewood Suites by Hilton Milwaukee Downtown"
+                ],
+                "Average Rating": 4.4,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Albuquerque",
+            "results": {
+                "Top 5": [
+                    "Sandia Peak Inn",
+                    "SpringHill Suites by Marriott Albuquerque North/Journal Center",
+                    "Hampton Inn Albuquerque-University/Midtown",
+                    "Fairfield Inn & Suites",
+                    "Hotel Parq Central"
+                ],
+                "Average Rating": 4.1,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Tucson",
+            "results": {
+                "Top 5": [
+                    "Hotel McCoy",
+                    "TownePlace Suites by Marriott Tucson Williams Centre",
+                    "The Downtown Clifton Hotel",
+                    "Embassy Suites by Hilton Tucson Paloma Village",
+                    "JW Marriott Tucson Starr Pass Resort & Spa"
+                ],
+                "Average Rating": 4.4,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Fresno",
+            "results": {
+                "Top 5": [
+                    "Garden Inn & Suites",
+                    "La Quinta by Wyndham Fresno Riverpark",
+                    "Homewood Suites by Hilton Fresno",
+                    "Hampton Inn & Suites Fresno",
+                    "Hyatt Place Fresno"
+                ],
+                "Average Rating": 3.9,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Sacramento",
+            "results": {
+                "Top 5": [
+                    "Hampton Inn & Suites Sacramento at CSUS",
+                    "The Greens Hotel",
+                    "Kimpton Sawyer Hotel",
+                    "Arden Star Hotel",
+                    "Hilton Garden Inn Sacramento/South Natomas"
+                ],
+                "Average Rating": 4.1,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Long Beach",
+            "results": {
+                "Top 5": [
+                    "Hotel Royal",
+                    "Hotel CURRENT",
+                    "Hyatt Centric The Pike Long Beach",
+                    "Hampton Inn Long Beach Airport",
+                    "Residence Inn by Marriott Long Beach Downtown"
+                ],
+                "Average Rating": 4.1,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Kansas City",
+            "results": {
+                "Top 5": [
+                    "Best Western Premier KC Speedway Inn & Suites",
+                    "Hotel Indigo Kansas City Downtown",
+                    "Residence Inn Kansas City at The Legends",
+                    "Drury Inn & Suites Kansas City Shawnee Mission",
+                    "Ambassador Hotel Kansas City, Autograph Collection"
+                ],
+                "Average Rating": 4.4,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Mesa",
+            "results": {
+                "Top 5": [
+                    "Residence Inn by Marriott",
+                    "Four Points by Sheraton at Phoenix Mesa Gateway Airport",
+                    "Hampton Inn & Suites Phoenix East Mesa",
+                    "Courtyard by Marriott Phoenix Mesa Gateway Airport",
+                    "Hyatt Place Phoenix/Mesa"
+                ],
+                "Average Rating": 4.1,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Virginia Beach",
+            "results": {
+                "Top 5": [
+                    "Comfort Inn & Suites Virginia Beach - Oceanfront",
+                    "Residence Inn by Marriott Virginia Beach Town Center",
+                    "Hilton Garden Inn Virginia Beach Oceanfront",
+                    "Courtyard by Marriott Virginia Beach Oceanfront/South",
+                    "Hampton Inn Virginia Beach-Oceanfront North"
+                ],
+                "Average Rating": 4.0,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Atlanta",
+            "results": {
+                "Top 5": [
+                    "Four Seasons Hotel Atlanta",
+                    "Hampton Inn & Suites by Hilton Atlanta Perimeter Dunwoody",
+                    "Canopy By Hilton Atlanta Midtown",
+                    "Artmore Hotel",
+                    "Hilton Garden Inn Atlanta Midtown"
+                ],
+                "Average Rating": 4.0,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Colorado Springs",
+            "results": {
+                "Top 5": [
+                    "Hilton Garden Inn - Colorado Springs",
+                    "Garden of the Gods",
+                    "My Place Hotel-Colorado Springs, CO",
+                    "Drury Inn & Suites Colorado Springs Near the Air Force Academy",
+                    "The Mining Exchange, A Wyndham Grand Hotel"
+                ],
+                "Average Rating": 4.4,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Omaha",
+            "results": {
+                "Top 5": [
+                    "Even Hotel Omaha Downtown",
+                    "Omaha Marriott Downtown at the Capitol District",
+                    "Residence Inn Omaha Downtown/Old Market Area",
+                    "Hampton Inn & Suites Omaha-Downtown",
+                    "Hampton Inn Omaha/West Dodge Road"
+                ],
+                "Average Rating": 4.5,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Raleigh",
+            "results": {
+                "Top 5": [
+                    "Hyatt House Raleigh North Hills",
+                    "Hampton Inn & Suites Raleigh Downtown",
+                    "Hampton Inn & Suites Raleigh/Crabtree Valley",
+                    "Holiday Inn Express & Suites Raleigh North - Wake Forest",
+                    "Hilton Garden Inn Raleigh /Crabtree Valley"
+                ],
+                "Average Rating": 4.3,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Miami",
+            "results": {
+                "Top 5": [
+                    "Hampton Inn & Suites by Hilton Miami Brickell Downtown",
+                    "Hilton Miami Dadeland",
+                    "Mandarin Oriental, Miami",
+                    "Four Seasons Hotel Miami",
+                    "The Guild - Miami"
+                ],
+                "Average Rating": 4.6,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Oakland",
+            "results": {
+                "Top 5": [
+                    "Best Western Plus Bayside Hotel",
+                    "Waterfront Hotel",
+                    "Hyatt Place Emeryville/San Francisco Bay Area",
+                    "Inn at Temescal",
+                    "Oakland Marriott City Center"
+                ],
+                "Average Rating": 3.7,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Minneapolis",
+            "results": {
+                "Top 5": [
+                    "Elliot Park Hotel, Autograph Collection",
+                    "Hewing Hotel",
+                    "JW Marriott Minneapolis Mall of America",
+                    "The Grand Hotel Minneapolis",
+                    "Hotel Ivy, a Luxury Collection Hotel, Minneapolis"
+                ],
+                "Average Rating": 4.2,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Tulsa",
+            "results": {
+                "Top 5": [
+                    "Ambassador Hotel Tulsa, Autograph Collection",
+                    "Courtyard Tulsa Woodland Hills",
+                    "Holiday Inn Express & Suites Tulsa Midtown",
+                    "Springhill Suites",
+                    "Fairfield Inn & Suites Tulsa Downtown"
+                ],
+                "Average Rating": 4.3,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Cleveland",
+            "results": {
+                "Top 5": [
+                    "Drury Plaza Hotel - Cleveland",
+                    "The Bumpus House",
+                    "Hilton Cleveland Downtown",
+                    "Holiday Inn Express Cleveland Downtown",
+                    "Metropolitan at The 9, Autograph Collection"
+                ],
+                "Average Rating": 4.2,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Wichita",
+            "results": {
+                "Top 5": [
+                    "Drury Plaza Hotel Broadview Wichita",
+                    "Holiday Inn Express Wichita South",
+                    "Hotel at Old Town",
+                    "Homewood Suites by Hilton - The Waterfront",
+                    "Ambassador Hotel Wichita, Autograph Collection"
+                ],
+                "Average Rating": 4.4,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Arlington",
+            "results": {
+                "Top 5": [
+                    "Residence Inn Marriott",
+                    "WhyHotel Arlington Ballston",
+                    "Residence Inn by Marriott Arlington Capital View",
+                    "Hilton Garden Inn Arlington Shirlington",
+                    "Americana Hotel"
+                ],
+                "Average Rating": 4.1,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "New Orleans",
+            "results": {
+                "Top 5": [
+                    "Hotel Le Marais",
+                    "Courtyard by Marriott New Orleans French Quarter/Iberville",
+                    "Dauphine Orleans Hotel",
+                    "Hotel Monteleone",
+                    "THE ELIZA JANE"
+                ],
+                "Average Rating": 4.1,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Bakersfield",
+            "results": {
+                "Top 5": [
+                    "Padre Hotel",
+                    "Holiday Inn Express Bakersfield",
+                    "Homewood Suites by Hilton Bakersfield",
+                    "Best Western Heritage Inn",
+                    "Fairfield Inn & Suites By Marriott"
+                ],
+                "Average Rating": 4.0,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Tampa",
+            "results": {
+                "Top 5": [
+                    "Fairfield Inn & Suites by Marriott Tampa Westshore/Airport",
+                    "Tampa Marriott Water Street",
+                    "Courtyard by Marriott Tampa Northwest/Veterans Expressway",
+                    "AC Hotel by Marriott Tampa Airport",
+                    "Holiday Inn Express & Suites Tampa-I-75 @ Bruce B. Downs"
+                ],
+                "Average Rating": 4.3,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Honolulu",
+            "results": {
+                "Top 5": [
+                    "Halekulani",
+                    "The Kahala Hotel & Resort",
+                    "Moana Surfrider, A Westin Resort & Spa, Waikiki Beach",
+                    "Prince Waikiki",
+                    "Hyatt Regency Waikiki Beach Resort & Spa"
+                ],
+                "Average Rating": 4.2,
+                "Average Price": "Ultra High-End"
+            }
+        },
+        {
+            "city": "Aurora",
+            "results": {
+                "Top 5": [
+                    "Holiday Inn Express & Suites Aurora - Naperville",
+                    "Hampton Inn & Suites Chicago/Aurora",
+                    "Hotel Arista",
+                    "Comfort Inn & Suites North Aurora - Naperville",
+                    "Holiday Inn Express & Suites Chicago-Oswego"
+                ],
+                "Average Rating": 3.8,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Anaheim",
+            "results": {
+                "Top 5": [
+                    "Courtyard by Marriott Anaheim Theme Park Entrance",
+                    "Ayres Hotel Anaheim",
+                    "Hotel Indigo Anaheim",
+                    "Holiday Inn Express & Suites Anaheim Resort Area",
+                    "The Hotel Fullerton"
+                ],
+                "Average Rating": 4.2,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Santa Ana",
+            "results": {
+                "Top 5": [
+                    "Holiday Inn Express & Suites Santa Ana - Orange County",
+                    "Courtyard by Marriott Santa Ana Orange County",
+                    "Hampton Inn & Suites Santa Ana/Orange County Airport",
+                    "DoubleTree by Hilton Hotel Santa Ana - Orange County Airport",
+                    "Courtyard by Marriott Costa Mesa South Coast Metro"
+                ],
+                "Average Rating": 3.2,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "St Louis",
+            "results": {
+                "Top 5": [
+                    "Hampton Inn & Suites St. Louis/South I-55",
+                    "Moonrise Hotel",
+                    "Hampton Inn & Suites St. Louis at Forest Park",
+                    "Drury Plaza Hotel St. Louis At The Arch",
+                    "Drury Inn & Suites St. Louis Brentwood"
+                ],
+                "Average Rating": 4.3,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Riverside",
+            "results": {
+                "Top 5": [
+                    "Springhill suites Dayton Beavercreek",
+                    "Jailhouse Suites",
+                    "Hilton Garden Inn Dayton Beavercreek",
+                    "Marriott at the University of Dayton",
+                    "Country Inn & Suites"
+                ],
+                "Average Rating": 4.2,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Corpus Christi",
+            "results": {
+                "Top 5": [
+                    "Capri Beach Hotel",
+                    "Hampton Inn & Suites Corpus Christi",
+                    "Omni Corpus Christi Hotel",
+                    "SpringHill Suites Corpus Christi",
+                    "Fairfield Inn & Suites Corpus Christi"
+                ],
+                "Average Rating": 4.1,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Lexington",
+            "results": {
+                "Top 5": [
+                    "21c Museum Hotel",
+                    "Holiday Inn Express & Suites Lexington-Downtown/University",
+                    "Embassy Suites by Hilton Lexington Green",
+                    "Staybridge Suites Lexington",
+                    "Homewood Suites by Hilton Lexington-Hamburg"
+                ],
+                "Average Rating": 4.5,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Pittsburgh",
+            "results": {
+                "Top 5": [
+                    "Drury Plaza Hotel Pittsburgh Downtown",
+                    "Kimpton Hotel Monaco Pittsburgh",
+                    "Hampton Inn & Suites Pittsburgh-Downtown",
+                    "Residence Inn",
+                    "The Oaklander Hotel Autograph Collection - Pittsburgh"
+                ],
+                "Average Rating": 4.2,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Anchorage",
+            "results": {
+                "Top 5": [
+                    "Embassy Suites by Hilton Anchorage",
+                    "Hyatt House Anchorage",
+                    "A Wildflower Inn",
+                    "SpringHill Suites by Marriott Anchorage University Lake",
+                    "Hotel Captain Cook"
+                ],
+                "Average Rating": 4.1,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Stockton",
+            "results": {
+                "Top 5": [
+                    "Residence Inn by Marriott Stockton",
+                    "University Plaza Waterfront Hotel",
+                    "Holiday Inn Express Stockton Southeast",
+                    "Hilton Stockton",
+                    "Courtyard by Marriott Stockton"
+                ],
+                "Average Rating": 3.3,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Cincinnati",
+            "results": {
+                "Top 5": [
+                    "Hampton Inn & Suites Cincinnati-Downtown",
+                    "Residence Inn by Marriott Cincinnati Downtown/The Phelps",
+                    "21c Museum Hotel Cincinnati",
+                    "Hampton Inn & Suites Cincinnati/Uptown-University Area",
+                    "Drury Inn & Suites Cincinnati Sharonville"
+                ],
+                "Average Rating": 4.2,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Saint Paul",
+            "results": {
+                "Top 5": [
+                    "Celeste St. Paul Hotel + Bar",
+                    "Hampton Inn & Suites Downtown St. Paul",
+                    "The Saint Paul Hotel",
+                    "Residence Inn by Marriott St. Paul Downtown",
+                    "Hyatt Place St. Paul/Downtown"
+                ],
+                "Average Rating": 4.1,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Toledo",
+            "results": {
+                "Top 5": [
+                    "Hampton Inn & Suites Toledo/Westgate",
+                    "Renaissance Toledo Downtown Hotel",
+                    "Holiday Inn Express & Suites Toledo West",
+                    "Hampton Inn Toledo-South/Maumee",
+                    "Hampton Inn & Suites Toledo-Perrysburg"
+                ],
+                "Average Rating": 4.4,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Greensboro",
+            "results": {
+                "Top 5": [
+                    "Hampton Inn & Suites Greensboro/Coliseum Area",
+                    "Proximity Hotel",
+                    "O.Henry Hotel",
+                    "Holiday Inn Greensboro Coliseum",
+                    "SpringHill Suites by Marriott Greensboro"
+                ],
+                "Average Rating": 4.2,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Newark",
+            "results": {
+                "Top 5": [
+                    "Courtyard by Marriott Newark Downtown",
+                    "Hampton Inn & Suites Newark - Harrison & Riverwalk",
+                    "Hotel Indigo Newark Downtown",
+                    "Element Harrison - Newark",
+                    "Newark Liberty International Airport Marriott"
+                ],
+                "Average Rating": 3.5,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Plano",
+            "results": {
+                "Top 5": [
+                    "Hampton Inn & Suites Dallas/Plano-East",
+                    "Dallas/Plano Marriott at Legacy Town Center",
+                    "Fairfield Inn & Suites by Marriott Dallas Plano North",
+                    "Homewood Suites by Hilton Plano-Richardson",
+                    "Renaissance Dallas at Plano Legacy West Hotel"
+                ],
+                "Average Rating": 4.4,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Henderson",
+            "results": {
+                "Top 5": [
+                    "M Resort Spa Casino",
+                    "Residence Inn by Marriott",
+                    "Hilton Lake Las Vegas Resort & Spa",
+                    "TownePlace Suites Las Vegas Henderson",
+                    "Hampton Inn & Suites Las Vegas South"
+                ],
+                "Average Rating": 3.9,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Lincoln",
+            "results": {
+                "Top 5": [
+                    "Best Western Plus Lincoln Inn & Suites",
+                    "Fairfield Inn & Suites Lincoln Southeast",
+                    "Holiday Inn Express & Suites Lincoln I - 80",
+                    "Staybridge Suites Lincoln Northeast",
+                    "Hampton Inn Lincoln - South/Heritage Park"
+                ],
+                "Average Rating": 4.3,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Buffalo",
+            "results": {
+                "Top 5": [
+                    "Hampton Inn & Suites Buffalo Downtown",
+                    "Buffalo Marriott HARBORCENTER",
+                    "Reikart House, Buffalo, a Tribute Portfolio Hotel",
+                    "The Westin Buffalo",
+                    "Hyatt Place Buffalo/Amherst"
+                ],
+                "Average Rating": 4.4,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Jersey City",
+            "results": {
+                "Top 5": [
+                    "Residence Inn by Marriott Jersey City",
+                    "DoubleTree by Hilton Hotel & Suites Jersey City",
+                    "Courtyard by Marriott Jersey City Newport",
+                    "The Holland Hotel",
+                    "Holiday Inn Express & Suites Jersey City North - Hoboken"
+                ],
+                "Average Rating": 4.0,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Chula Vista",
+            "results": {
+                "Top 5": [
+                    "Residence Inn By Marriott San Diego Chula Vista",
+                    "Ayres Hotel Chula Vista",
+                    "El Primero Hotel",
+                    "Holiday Inn Express San Diego South - Chula Vista",
+                    "La Quinta Inn by Wyndham San Diego Chula Vista"
+                ],
+                "Average Rating": 4.1,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Fort Wayne",
+            "results": {
+                "Top 5": [
+                    "Courtyard Fort Wayne Downtown at Grand Wayne Convention Center",
+                    "Comfort Suites North",
+                    "Hampton Inn Ft. Wayne-Southwest",
+                    "Homewood Suites by Hilton Fort Wayne",
+                    "Hyatt Place Fort Wayne"
+                ],
+                "Average Rating": 4.2,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Orlando",
+            "results": {
+                "Top 5": [
+                    "Hampton Inn & Suites Orlando Airport @ Gateway Village",
+                    "The Delaney Hotel",
+                    "SpringHill Suites by Marriott Orlando at Millenia",
+                    "Drury Inn & Suites - Orlando",
+                    "Hilton Garden Inn Orlando International Drive North"
+                ],
+                "Average Rating": 4.5,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "St Petersburg",
+            "results": {
+                "Top 5": [
+                    "Hollander Hotel",
+                    "The Vinoy Renaissance St. Petersburg Resort & Golf Club",
+                    "Hampton Inn & Suites St. Petersburg/Downtown",
+                    "Fairfield Inn & Suites by Marriott St Petersburg North",
+                    "Hyatt Place St. Petersburg / Downtown"
+                ],
+                "Average Rating": 4.2,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Chandler",
+            "results": {
+                "Top 5": [
+                    "Hampton Inn & Suites Phoenix Chandler-Fashion Center AZ",
+                    "Cambria Hotel Phoenix Chandler - Fashion Center",
+                    "Home2 Suites by Hilton Phoenix Chandler",
+                    "Hilton Phoenix Chandler",
+                    "Drury Inn & Suites Phoenix Chandler Fashion Center"
+                ],
+                "Average Rating": 4.4,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Laredo",
+            "results": {
+                "Top 5": [
+                    "Best Western Plus Laredo Inn & Suites",
+                    "La Posada Hotel",
+                    "Best Western San Isidro Inn",
+                    "Embassy Suites by Hilton Laredo",
+                    "TownePlace Suites by Marriott Laredo"
+                ],
+                "Average Rating": 4.1,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Norfolk",
+            "results": {
+                "Top 5": [
+                    "Hilton Norfolk THE MAIN",
+                    "Residence Inn Norfolk Downtown",
+                    "SpringHill Suites",
+                    "Hampton Inn Norfolk-Naval Base",
+                    "Holiday Inn Express & Suites Norfolk Airport"
+                ],
+                "Average Rating": 3.4,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Durham",
+            "results": {
+                "Top 5": [
+                    "Hilton Garden Inn Durham/University Medical Center",
+                    "21c Museum Hotel Durham",
+                    "Hampton Inn & Suites Durham/North I-85",
+                    "Unscripted Durham",
+                    "The Durham Hotel"
+                ],
+                "Average Rating": 4.0,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Madison",
+            "results": {
+                "Top 5": [
+                    "Hampton Inn & Suites Madison / Downtown",
+                    "Hotel Indigo Madison Downtown",
+                    "HotelRED",
+                    "Mansion Hill Inn",
+                    "SpringHill Suites Madison"
+                ],
+                "Average Rating": 4.6,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Lubbock",
+            "results": {
+                "Top 5": [
+                    "Hampton Inn & Suites Lubbock Southwest",
+                    "Hilton Garden Inn Lubbock",
+                    "Best Western Plus Tech Medical Center Inn",
+                    "Staybridge Suites Lubbock",
+                    "Embassy Suites by Hilton Lubbock"
+                ],
+                "Average Rating": 4.0,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Irvine",
+            "results": {
+                "Top 5": [
+                    "Courtyard by Marriott Irvine Spectrum",
+                    "Hyatt House Irvine / John Wayne Airport",
+                    "Homewood Suites by Hilton Irvine John Wayne Airport",
+                    "Hotel Irvine",
+                    "DoubleTree by Hilton Hotel Irvine - Spectrum"
+                ],
+                "Average Rating": 4.1,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Winston–Salem",
+            "results": {
+                "Top 5": [
+                    "Hampton Inn and Suites-Winston-Salem/University Area NC",
+                    "Kimpton Cardinal Hotel",
+                    "Fairfield Inn & Suites Winston-Salem Downtown",
+                    "Hampton Inn Winston-Salem Hanes Mall",
+                    "Fairfield Inn & Suites Winston-Salem Hanes Mall"
+                ],
+                "Average Rating": 4.0,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Glendale",
+            "results": {
+                "Top 5": [
+                    "Embassy Suites by Hilton Los Angeles Glendale",
+                    "Hyatt Place - Glendale",
+                    "Hotel Xilo Glendale",
+                    "Hampton Inn & Suites Los Angeles - Glendale",
+                    "Motel Sakura"
+                ],
+                "Average Rating": 3.6,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Garland",
+            "results": {
+                "Top 5": [
+                    "Holiday Inn Express & Suites Garland E - Lake Hubbard I30",
+                    "La Quinta by Wyndham Garland Harbor Point",
+                    "Tru by Hilton Garland Richardson",
+                    "Hyatt Place Dallas Garland Richardson",
+                    "Hampton Inn & Suites Dallas/Plano-East"
+                ],
+                "Average Rating": 4.0,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Hialeah",
+            "results": {
+                "Top 5": [
+                    "Courtyard by Marriott Miami Lakes",
+                    "Executive Palace Hotel",
+                    "Holiday Inn Miami West - Airport Area",
+                    "La Quinta by Wyndham Miami Lakes",
+                    "Holiday Inn Express & Suites Miami-Hialeah"
+                ],
+                "Average Rating": 2.9,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Reno",
+            "results": {
+                "Top 5": [
+                    "Peppermill Reno",
+                    "The Jesse",
+                    "Courtyard Reno Downtown/Riverfront",
+                    "Grand Sierra Resort and Casino",
+                    "Atlantis Casino Resort Spa"
+                ],
+                "Average Rating": 3.8,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Chesapeake",
+            "results": {
+                "Top 5": [
+                    "Hyatt Place Chesapeake/Greenbrier",
+                    "Hampton Inn & Suites Chesapeake-Battlefield Blvd",
+                    "Fairfield Inn & Suites by Marriott Chesapeake Suffolk",
+                    "Aloft Chesapeake",
+                    "Hilton Norfolk THE MAIN"
+                ],
+                "Average Rating": 3.7,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Gilbert",
+            "results": {
+                "Top 5": [
+                    "Hampton Inn & Suites Phoenix/Gilbert",
+                    "Home2 Suites by Hilton Gilbert",
+                    "Residence Inn by Marriott",
+                    "Hyatt Place Phoenix/Gilbert",
+                    "Hampton Inn & Suites Phoenix East Mesa"
+                ],
+                "Average Rating": 4.1,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Baton Rouge",
+            "results": {
+                "Top 5": [
+                    "Drury Inn & Suites Baton Rouge",
+                    "WATERMARK Baton Rouge, Autograph Collection",
+                    "Holiday Inn Express & Suites Baton Rouge East",
+                    "La Quinta by Wyndham Baton Rouge Denham Springs",
+                    "Hampton Inn & Suites Baton Rouge Downtown"
+                ],
+                "Average Rating": 4.0,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Irving",
+            "results": {
+                "Top 5": [
+                    "Residence Inn by Marriott Dallas DFW Airport South/Irving",
+                    "La Quinta by Wyndham Dallas - Las Colinas",
+                    "Aloft Las Colinas",
+                    "Four Seasons Resort and Club Dallas at Las Colinas",
+                    "NYLO Las Colinas Hotel, Tapestry Collection by Hilton"
+                ],
+                "Average Rating": 3.9,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Scottsdale",
+            "results": {
+                "Top 5": [
+                    "Four Seasons Resort Scottsdale at Troon North",
+                    "Acacia At Four Seasons Resort Scottsdale At Troon North",
+                    "Hyatt Regency Scottsdale Resort & Spa at Gainey Ranch",
+                    "Courtyard Scottsdale North",
+                    "Fairmont Scottsdale Princess"
+                ],
+                "Average Rating": 4.2,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "North Las Vegas",
+            "results": {
+                "Top 5": [
+                    "SpringHill Suites by Marriott Las Vegas North Speedway",
+                    "Best Western Plus North Las Vegas Inn & Suites",
+                    "Hampton Inn Las Vegas/North Speedway",
+                    "Aliante Casino Hotel Spa",
+                    "Fairfield Inn & Suites Las Vegas Northwest"
+                ],
+                "Average Rating": 3.9,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Fremont",
+            "results": {
+                "Top 5": [
+                    "SpringHill Suites Newark Fremont",
+                    "Hyatt Place Fremont/ Silicon Valley",
+                    "Homewood Suites by Hilton Newark-Fremont",
+                    "Holiday Inn Express & Suites Fremont - Milpitas Central",
+                    "DoubleTree by Hilton Hotel Newark - Fremont"
+                ],
+                "Average Rating": 3.9,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Boise",
+            "results": {
+                "Top 5": [
+                    "Hampton Inn & Suites Boise-Downtown",
+                    "Oxford Suites Boise",
+                    "Modern Hotel",
+                    "Inn At 500 Capitol",
+                    "Hyatt Place Boise Downtown"
+                ],
+                "Average Rating": 4.4,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Richmond",
+            "results": {
+                "Top 5": [
+                    "Drury Plaza Hotel",
+                    "The Westin Richmond",
+                    "The Jefferson Hotel",
+                    "Candlewood Suites Richmond- W Broad- Glenside",
+                    "Hilton Richmond Hotel & Spa/Short Pump"
+                ],
+                "Average Rating": 4.4,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "San Bernardino",
+            "results": {
+                "Top 5": [
+                    "Hampton Inn & Suites San Bernardino",
+                    "DoubleTree by Hilton Hotel San Bernardino",
+                    "Bear Springs Hotel",
+                    "Homewood Suites by Hilton San Bernardino",
+                    "Ayres Hotel Redlands"
+                ],
+                "Average Rating": 4.1,
+                "Average Price": "Moderate"
+            }
+        }
+    ]
+}
