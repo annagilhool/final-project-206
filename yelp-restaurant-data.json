@@ -1,98 +1,106 @@
 {
     "yelp_data": [
         {
-            "New York": {
+            "city": "New York",
+            "results": {
                 "Top 5": [
-                    "Amélie",
                     "Upstate",
+                    "Amélie",
                     "LoveMama",
-                    "Aunt Jake's",
-                    "Barn Joo"
+                    "Joe's Shanghai",
+                    "BoCaphe"
                 ],
                 "Average Rating": 4.3,
                 "Average Price": "Moderate"
             }
         },
         {
-            "Los Angeles": {
+            "city": "Los Angeles",
+            "results": {
                 "Top 5": [
                     "Running Goose",
                     "Howlin' Ray's",
                     "République",
-                    "Dave's Hot Chicken",
-                    "BROKEN MOUTH | Lee's Homestyle"
+                    "BROKEN MOUTH | Lee's Homestyle",
+                    "Dave's Hot Chicken"
                 ],
                 "Average Rating": 4.5,
                 "Average Price": "Moderate"
             }
         },
         {
-            "Chicago": {
+            "city": "Chicago",
+            "results": {
                 "Top 5": [
-                    "Girl & the Goat",
-                    "Penumbra",
                     "The Whale Chicago",
-                    "Sapori Trattoria",
-                    "The Purple Pig"
+                    "Girl & the Goat",
+                    "The Purple Pig",
+                    "Penumbra",
+                    "etta"
                 ],
                 "Average Rating": 4.5,
                 "Average Price": "Pricey"
             }
         },
         {
-            "Houston": {
+            "city": "Houston",
+            "results": {
                 "Top 5": [
                     "Gen Korean BBQ House",
                     "Ritual",
-                    "Ambrosia",
                     "Bosscat Kitchen & Libations",
-                    "Traveler's Table"
-                ],
-                "Average Rating": 4.2,
-                "Average Price": "Moderate"
-            }
-        },
-        {
-            "Philadelphia": {
-                "Top 5": [
-                    "Barbuzzo",
-                    "The Dandelion",
-                    "Talula's Garden",
-                    "Zahav",
-                    "Little Nonna's"
+                    "The Pit Room",
+                    "BCK"
                 ],
                 "Average Rating": 4.3,
-                "Average Price": "Pricey"
-            }
-        },
-        {
-            "Phoenix": {
-                "Top 5": [
-                    "Cocina Madrigal",
-                    "The Arrogant Butcher",
-                    "Little Miss BBQ",
-                    "The Kettle Black Kitchen & Pub",
-                    "Nook Kitchen"
-                ],
-                "Average Rating": 4.6,
                 "Average Price": "Moderate"
             }
         },
         {
-            "San Antonio": {
+            "city": "Philadelphia",
+            "results": {
                 "Top 5": [
-                    "The Esquire Tavern",
-                    "Sangria On the Burg",
-                    "Outlaw Kitchens",
-                    "Boudro's On the River Walk",
-                    "Ida Claire"
+                    "Barbuzzo",
+                    "Talula's Garden",
+                    "Reading Terminal Market",
+                    "Zahav",
+                    "The Dandelion"
                 ],
                 "Average Rating": 4.4,
                 "Average Price": "Pricey"
             }
         },
         {
-            "San Diego": {
+            "city": "Phoenix",
+            "results": {
+                "Top 5": [
+                    "The Arrogant Butcher",
+                    "Cocina Madrigal",
+                    "Little Miss BBQ",
+                    "The Kettle Black Kitchen & Pub",
+                    "Welcome Diner"
+                ],
+                "Average Rating": 4.6,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "San Antonio",
+            "results": {
+                "Top 5": [
+                    "The Esquire Tavern",
+                    "Ida Claire",
+                    "Outlaw Kitchens",
+                    "Sangria On the Burg",
+                    "Tlahco Mexican kitchen"
+                ],
+                "Average Rating": 4.5,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "San Diego",
+            "results": {
                 "Top 5": [
                     "Pachamama",
                     "Werewolf",
@@ -105,20 +113,22 @@
             }
         },
         {
-            "Dallas": {
+            "city": "Dallas",
+            "results": {
                 "Top 5": [
-                    "Hattie's Restaurant",
                     "Pecan Lodge",
-                    "Meso Maya Comida Y Copas",
+                    "Ellen's",
                     "Maple Leaf Diner",
-                    "Ellen's"
+                    "Meso Maya Comida Y Copas",
+                    "The Porch"
                 ],
                 "Average Rating": 4.3,
                 "Average Price": "Moderate"
             }
         },
         {
-            "San Jose": {
+            "city": "San Jose",
+            "results": {
                 "Top 5": [
                     "Firehouse No.1 Gastropub",
                     "Hapa Musubi",
@@ -131,137 +141,148 @@
             }
         },
         {
-            "Austin": {
+            "city": "Austin",
+            "results": {
                 "Top 5": [
                     "Salty Sow",
                     "Moonshine Patio Bar & Grill",
                     "Sushi Junai Omakase",
-                    "The Peached Tortilla",
-                    "1618 Asian Fusion"
+                    "Franklin Barbecue",
+                    "The Peached Tortilla"
                 ],
-                "Average Rating": 4.6,
+                "Average Rating": 4.5,
                 "Average Price": "Moderate"
             }
         },
         {
-            "Indianapolis": {
+            "city": "Indianapolis",
+            "results": {
                 "Top 5": [
                     "The Eagle",
-                    "Tinker Street",
                     "Baby's",
+                    "Tinker Street",
                     "Bluebeard",
-                    "Union 50"
+                    "Rook"
+                ],
+                "Average Rating": 4.3,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Jacksonville",
+            "results": {
+                "Top 5": [
+                    "Southern Charm",
+                    "The Bearded Pig",
+                    "The French Pantry",
+                    "BB's",
+                    "The Stuffed Beaver"
+                ],
+                "Average Rating": 4.5,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "San Francisco",
+            "results": {
+                "Top 5": [
+                    "Fog Harbor Fish House",
+                    "The House",
+                    "Marufuku Ramen SF",
+                    "um.ma",
+                    "Farmhouse Kitchen Thai Cuisine"
+                ],
+                "Average Rating": 4.2,
+                "Average Price": "Pricey"
+            }
+        },
+        {
+            "city": "Columbus",
+            "results": {
+                "Top 5": [
+                    "Alqueria Farmhouse Kitchen",
+                    "The Eagle",
+                    "Brassica",
+                    "Wolf's Ridge Brewing",
+                    "Pat and Gracie's"
+                ],
+                "Average Rating": 4.3,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Charlotte",
+            "results": {
+                "Top 5": [
+                    "Haberdish",
+                    "Dogwood Southern Table & Bar",
+                    "Link & Pin",
+                    "Taco Mama - Dilworth",
+                    "Sea Level NC"
                 ],
                 "Average Rating": 4.4,
                 "Average Price": "Moderate"
             }
         },
         {
-            "Jacksonville": {
-                "Top 5": [
-                    "Southern Charm",
-                    "BB's",
-                    "Gilbert's Social",
-                    "The Bearded Pig",
-                    "Town Hall"
-                ],
-                "Average Rating": 4.5,
-                "Average Price": "Moderate"
-            }
-        },
-        {
-            "San Francisco": {
-                "Top 5": [
-                    "Fog Harbor Fish House",
-                    "The House",
-                    "Marufuku Ramen SF",
-                    "um.ma",
-                    "Voodoo Love"
-                ],
-                "Average Rating": 4.3,
-                "Average Price": "Pricey"
-            }
-        },
-        {
-            "Columbus": {
-                "Top 5": [
-                    "Alqueria Farmhouse Kitchen",
-                    "The Eagle",
-                    "The Sycamore",
-                    "Wolf's Ridge Brewing",
-                    "Third and Hollywood"
-                ],
-                "Average Rating": 4.2,
-                "Average Price": "Pricey"
-            }
-        },
-        {
-            "Charlotte": {
-                "Top 5": [
-                    "Haberdish",
-                    "Dogwood Southern Table & Bar",
-                    "The Cellar at Duckworth's",
-                    "Sea Level NC",
-                    "Link & Pin"
-                ],
-                "Average Rating": 4.5,
-                "Average Price": "Moderate"
-            }
-        },
-        {
-            "Fort Worth": {
+            "city": "Fort Worth",
+            "results": {
                 "Top 5": [
                     "Mash'D - Fort Worth",
-                    "Cannon Chinese Kitchen",
-                    "Horseshoe Hill Cafe",
                     "The Cookshack",
-                    "STIRR Fort Worth"
+                    "Horseshoe Hill Cafe",
+                    "Hot Box Biscuit Club",
+                    "Heim Barbecue"
                 ],
                 "Average Rating": 4.2,
                 "Average Price": "Moderate"
             }
         },
         {
-            "Detroit": {
+            "city": "Detroit",
+            "results": {
                 "Top 5": [
                     "Smith & Co",
-                    "Standby",
+                    "Selden Standard",
+                    "Detroit Shipping Company",
                     "Grey Ghost Detroit",
-                    "Takoi",
-                    "Chartreuse"
+                    "Standby"
                 ],
                 "Average Rating": 4.3,
                 "Average Price": "Pricey"
             }
         },
         {
-            "El Paso": {
+            "city": "El Paso",
+            "results": {
                 "Top 5": [
-                    "L & J Cafe",
                     "El Taquito",
-                    "Tabla",
+                    "L & J Cafe",
                     "Noodles & Dumplings",
-                    "Gom Ramen"
+                    "Gom Ramen",
+                    "West Texas Chophouse"
                 ],
-                "Average Rating": 4.5,
+                "Average Rating": 4.4,
                 "Average Price": "Moderate"
             }
         },
         {
-            "Memphis": {
+            "city": "Memphis",
+            "results": {
                 "Top 5": [
                     "Gus's World Famous Fried Chicken",
                     "McEwen's Memphis",
                     "Blues City Cafe",
                     "Central BBQ",
-                    "Flight Restaurant & Wine Bar"
+                    "Mot & Ed's Southern Eatery"
                 ],
                 "Average Rating": 4.3,
-                "Average Price": "Pricey"
+                "Average Price": "Moderate"
             }
         },
         {
-            "Seattle": {
+            "city": "Seattle",
+            "results": {
                 "Top 5": [
                     "The Pink Door",
                     "Pike Place Chowder",
@@ -274,88 +295,95 @@
             }
         },
         {
-            "Denver": {
+            "city": "Denver",
+            "results": {
                 "Top 5": [
                     "Work & Class",
+                    "Denver Biscuit Co.",
                     "Acorn - Denver",
-                    "Root Down",
-                    "Meadowlark Kitchen",
-                    "Stout Street Social"
+                    "Stout Street Social",
+                    "Rolls by Chubby Cattle"
                 ],
                 "Average Rating": 4.4,
                 "Average Price": "Moderate"
             }
         },
         {
-            "Washington": {
+            "city": "Washington",
+            "results": {
                 "Top 5": [
                     "Stella's",
                     "Cottage Cafe & Fireside Lounge",
                     "Roslyn Mexican Grill",
-                    "Roots BBQ",
-                    "The Coal Chute Cafe and Pub"
+                    "The Coal Chute Cafe and Pub",
+                    "Roots BBQ"
                 ],
                 "Average Rating": 4.3,
                 "Average Price": "Moderate"
             }
         },
         {
-            "Boston": {
+            "city": "Boston",
+            "results": {
                 "Top 5": [
                     "Carmelina's",
-                    "The Salty Pig",
-                    "Giacomo's Ristorante",
                     "Neptune Oyster",
-                    "Saltie Girl"
+                    "Luke's Lobster Back Bay",
+                    "Saltie Girl",
+                    "Giacomo's Ristorante"
                 ],
                 "Average Rating": 4.3,
                 "Average Price": "Pricey"
             }
         },
         {
-            "Nashville": {
+            "city": "Nashville",
+            "results": {
                 "Top 5": [
                     "The Stillery",
                     "Hattie B's Chicken - Midtown",
                     "The Farm House",
-                    "Etch Restaurant",
-                    "Puckett's Grocery & Restaurant"
+                    "Puckett's Grocery & Restaurant",
+                    "Etch Restaurant"
                 ],
                 "Average Rating": 4.3,
                 "Average Price": "Pricey"
             }
         },
         {
-            "Baltimore": {
+            "city": "Baltimore",
+            "results": {
                 "Top 5": [
                     "Thames Street Oyster House",
-                    "Joe Benny's",
+                    "Ekiben",
                     "Wicked Sisters Tavern",
                     "Puerto 511",
-                    "The Food Market"
+                    "Woodberry Kitchen"
                 ],
-                "Average Rating": 4.3,
-                "Average Price": "Moderate"
+                "Average Rating": 4.4,
+                "Average Price": "Pricey"
             }
         },
         {
-            "Oklahoma City": {
+            "city": "Oklahoma City",
+            "results": {
                 "Top 5": [
                     "The Press",
-                    "Black Walnut ",
+                    "Kitchen No 324",
                     "Cheever's Cafe",
-                    "Gun Izakaya",
-                    "Kitchen No 324"
+                    "Black Walnut ",
+                    "Gun Izakaya"
                 ],
                 "Average Rating": 4.5,
                 "Average Price": "Moderate"
             }
         },
         {
-            "Louisville": {
+            "city": "Louisville",
+            "results": {
                 "Top 5": [
-                    "Hammerheads",
                     "The Eagle",
+                    "Hammerheads",
                     "Harvest Restaurant",
                     "District 6",
                     "The Fat Lamb"
@@ -365,12 +393,13 @@
             }
         },
         {
-            "Portland": {
+            "city": "Portland",
+            "results": {
                 "Top 5": [
                     "Screen Door",
                     "Tasty n Alder",
-                    "The Observatory",
                     "Lechon",
+                    "The Observatory",
                     "Pine Street Market"
                 ],
                 "Average Rating": 4.5,
@@ -378,59 +407,64 @@
             }
         },
         {
-            "Las Vegas": {
+            "city": "Las Vegas",
+            "results": {
                 "Top 5": [
                     "Yardbird Southern Table & Bar",
                     "Gordon Ramsay Hell's Kitchen",
                     "Therapy",
                     "Carson Kitchen",
-                    "El Dorado Cantina"
+                    "Gangnam Asian BBQ Dining"
                 ],
                 "Average Rating": 4.5,
                 "Average Price": "Pricey"
             }
         },
         {
-            "Milwaukee": {
+            "city": "Milwaukee",
+            "results": {
                 "Top 5": [
-                    "Swingin' Door Exchange",
                     "Blue's Egg - Milwaukee",
-                    "St Paul Fish Company",
+                    "Swingin' Door Exchange",
                     "Triciclo Peru",
-                    "Maxie's"
+                    "St Paul Fish Company",
+                    "Story Hill BKC"
                 ],
-                "Average Rating": 4.5,
+                "Average Rating": 4.6,
                 "Average Price": "Moderate"
             }
         },
         {
-            "Albuquerque": {
+            "city": "Albuquerque",
+            "results": {
                 "Top 5": [
                     "The Jealous Fork",
                     "Cocina Azul",
+                    "Fork & Fig",
                     "Sixty Six Acres",
-                    "Salt and Board",
-                    "Fork & Fig"
+                    "Salt and Board"
                 ],
                 "Average Rating": 4.5,
                 "Average Price": "Moderate"
             }
         },
         {
-            "Tucson": {
+            "city": "Tucson",
+            "results": {
                 "Top 5": [
                     "The Parish",
-                    "Commoner & Co.",
                     "Tito & Pep",
-                    "Charro del Rey",
-                    "Churrasco de Brasil"
+                    "Noodleholics",
+                    "Commoner & Co.",
+                    "August Rhodes Market"
                 ],
                 "Average Rating": 4.4,
-                "Average Price": "Pricey"
+                "Average Price": "Moderate"
             }
         },
         {
-            "Fresno": {
+            "city": "Fresno",
+            "results": {
                 "Top 5": [
                     "Heirloom",
                     "The Annex Kitchen",
@@ -443,20 +477,22 @@
             }
         },
         {
-            "Sacramento": {
+            "city": "Sacramento",
+            "results": {
                 "Top 5": [
                     "Ramen House Ryujin",
                     "Fixins Soul Kitchen",
                     "The Other Side",
-                    "South",
-                    "Bacon & Butter"
+                    "Bacon & Butter",
+                    "South"
                 ],
                 "Average Rating": 4.3,
                 "Average Price": "Moderate"
             }
         },
         {
-            "Long Beach": {
+            "city": "Long Beach",
+            "results": {
                 "Top 5": [
                     "Cluck & Blaze",
                     "The Attic",
@@ -469,7 +505,8 @@
             }
         },
         {
-            "Kansas City": {
+            "city": "Kansas City",
+            "results": {
                 "Top 5": [
                     "Joe's Kansas City Bar-B-Que",
                     "Mason Jar",
@@ -482,98 +519,106 @@
             }
         },
         {
-            "Mesa": {
+            "city": "Mesa",
+            "results": {
                 "Top 5": [
-                    "Bobby Q - Mesa",
                     "Tucked Away Craft Kitchen & Bar",
-                    "Sam and Luca Rustic Kitchen",
+                    "Bobby Q - Mesa",
                     "Green Corner Restaurant",
-                    "Alessia's Ristorante Italiano"
+                    "Cap'n Ron's Fish and  Chips",
+                    "Backyard Taco"
                 ],
-                "Average Rating": 4.6,
+                "Average Rating": 4.8,
                 "Average Price": "Moderate"
             }
         },
         {
-            "Virginia Beach": {
+            "city": "Virginia Beach",
+            "results": {
                 "Top 5": [
-                    "Blue Seafood & Spirits",
                     "Waterman's Surfside Grille",
+                    "Blue Seafood & Spirits",
                     "Repeal Bourbons and Burgers",
-                    "Hearth Wood Fired Cuisine & Craft Beer",
-                    "The Atlantic"
+                    "The Atlantic",
+                    "Noodle Man"
                 ],
                 "Average Rating": 4.5,
                 "Average Price": "Moderate"
             }
         },
         {
-            "Atlanta": {
+            "city": "Atlanta",
+            "results": {
                 "Top 5": [
                     "Poor Calvin's",
-                    "South City Kitchen Buckhead",
+                    "The Hungry Peach",
                     "Hattie B's Hot Chicken - Atlanta",
-                    "Two Urban Licks",
-                    "Louisiana Bistreaux Buckhead"
+                    "South City Kitchen Buckhead",
+                    "Aviva by Kameel"
                 ],
-                "Average Rating": 4.4,
+                "Average Rating": 4.6,
                 "Average Price": "Moderate"
             }
         },
         {
-            "Colorado Springs": {
+            "city": "Colorado Springs",
+            "results": {
                 "Top 5": [
-                    "The Rabbit Hole",
                     "Lazy Dog Restaurant & Bar",
-                    "Phantom Canyon",
+                    "The Rabbit Hole",
                     "Shuga's",
-                    "Odyssey Gastropub"
+                    "Phantom Canyon",
+                    "Skirted Heifer"
                 ],
-                "Average Rating": 4.2,
+                "Average Rating": 4.1,
                 "Average Price": "Moderate"
             }
         },
         {
-            "Omaha": {
+            "city": "Omaha",
+            "results": {
                 "Top 5": [
                     "Block 16",
                     "Inner Rail Food Hall",
-                    "Au Courant",
-                    "Lombardo's Bistro & Bar",
+                    "Kitchen Table",
+                    "The Hunger Block",
                     "Acadian Grille Scratch Kitchen"
                 ],
-                "Average Rating": 4.4,
-                "Average Price": "Pricey"
+                "Average Rating": 4.3,
+                "Average Price": "Moderate"
             }
         },
         {
-            "Raleigh": {
+            "city": "Raleigh",
+            "results": {
                 "Top 5": [
-                    "Bida Manda",
                     "Salt & Lime Cabo Grill",
+                    "Bida Manda",
+                    "The Pit",
                     "The Oak",
-                    "Stanbury",
-                    "The Pit"
+                    "Stanbury"
                 ],
                 "Average Rating": 4.3,
                 "Average Price": "Pricey"
             }
         },
         {
-            "Miami": {
+            "city": "Miami",
+            "results": {
                 "Top 5": [
-                    "Crazy About You",
-                    "Old's Havana Cuban Bar & Cocina",
-                    "CVI.CHE 105",
                     "WHISK Gourmet Food & Catering",
-                    "Bunbury"
+                    "Old's Havana Cuban Bar & Cocina",
+                    "Crazy About You",
+                    "CVI.CHE 105",
+                    "KYU"
                 ],
                 "Average Rating": 4.4,
-                "Average Price": "Moderate"
+                "Average Price": "Pricey"
             }
         },
         {
-            "Oakland": {
+            "city": "Oakland",
+            "results": {
                 "Top 5": [
                     "Marica",
                     "Brenda's Oakland",
@@ -586,85 +631,92 @@
             }
         },
         {
-            "Minneapolis": {
+            "city": "Minneapolis",
+            "results": {
                 "Top 5": [
                     "Butcher & The Boar",
                     "Spoon and Stable",
-                    "Zelo",
                     "112 Eatery",
-                    "Bar La Grassa"
+                    "Zelo",
+                    "Red Cow - Minneapolis"
                 ],
                 "Average Rating": 4.5,
                 "Average Price": "Pricey"
             }
         },
         {
-            "Tulsa": {
+            "city": "Tulsa",
+            "results": {
                 "Top 5": [
                     "Sisserou's",
-                    "Prossima Prosecco",
                     "The Vault",
                     "Amelia's",
-                    "Redrock Canyon Grill"
+                    "Prossima Prosecco",
+                    "Burn Co Barbeque"
                 ],
                 "Average Rating": 4.4,
                 "Average Price": "Moderate"
             }
         },
         {
-            "Cleveland": {
+            "city": "Cleveland",
+            "results": {
                 "Top 5": [
                     "Butcher and the Brewer",
-                    "Mia Bella Restaurant",
-                    "The Bourbon Street Barrel Room",
                     "Noble Beast Brewing",
-                    "Sokolowski's University Inn"
+                    "Slyman's Restaurant",
+                    "The Bourbon Street Barrel Room",
+                    "Soho Chicken + Whiskey"
                 ],
                 "Average Rating": 4.3,
                 "Average Price": "Moderate"
             }
         },
         {
-            "Wichita": {
+            "city": "Wichita",
+            "results": {
                 "Top 5": [
                     "Public",
-                    "The Angry Elephant",
+                    "Doo-Dah Diner",
                     "The Anchor",
-                    "Gabby's Peruvian Restaurant & Catering",
-                    "Bella Vita Bistro"
+                    "The Angry Elephant",
+                    "Gabby's Peruvian Restaurant & Catering"
                 ],
                 "Average Rating": 4.4,
                 "Average Price": "Moderate"
             }
         },
         {
-            "Arlington": {
+            "city": "Arlington",
+            "results": {
                 "Top 5": [
                     "Ambar",
+                    "DIRT",
                     "Yayla Bistro",
                     "Gyu-Kaku Japanese BBQ",
-                    "Mele Bistro",
-                    "DIRT"
+                    "Barley Mac"
                 ],
                 "Average Rating": 4.3,
                 "Average Price": "Moderate"
             }
         },
         {
-            "New Orleans": {
+            "city": "New Orleans",
+            "results": {
                 "Top 5": [
                     "Café Amelie",
-                    "Cochon",
                     "Galliano Restaurant",
-                    "Luke",
-                    "Cochon Butcher"
+                    "Cochon Butcher",
+                    "Cochon",
+                    "Willie Mae's Scotch House"
                 ],
                 "Average Rating": 4.3,
                 "Average Price": "Moderate"
             }
         },
         {
-            "Bakersfield": {
+            "city": "Bakersfield",
+            "results": {
                 "Top 5": [
                     "PorkChop & Bubba's BBQ",
                     "Locale Farm to Table Eatery",
@@ -677,12 +729,13 @@
             }
         },
         {
-            "Tampa": {
+            "city": "Tampa",
+            "results": {
                 "Top 5": [
                     "On Swann",
                     "Rooster & the Till",
                     "Chop Chop Shop",
-                    "Roux",
+                    "Ulele",
                     "Oak and Ola"
                 ],
                 "Average Rating": 4.4,
@@ -690,33 +743,36 @@
             }
         },
         {
-            "Honolulu": {
+            "city": "Honolulu",
+            "results": {
                 "Top 5": [
                     "Marukame Udon",
                     "Ono Seafood",
-                    "Helena's Hawaiian Food",
+                    "Hula Grill Waikiki",
                     "Duke's Waikiki",
-                    "Tikis Grill & Bar"
+                    "Helena's Hawaiian Food"
                 ],
                 "Average Rating": 4.3,
                 "Average Price": "Moderate"
             }
         },
         {
-            "Aurora": {
+            "city": "Aurora",
+            "results": {
                 "Top 5": [
                     "Gillerson's Grubbery",
                     "Two Brothers Roundhouse",
-                    "Hardware",
-                    "Pub 56",
-                    "Jefa Tacos"
+                    "Pie Boss",
+                    "Jefa Tacos",
+                    "Hardware"
                 ],
-                "Average Rating": 4.0,
-                "Average Price": "Pricey"
+                "Average Rating": 4.1,
+                "Average Price": "Moderate"
             }
         },
         {
-            "Anaheim": {
+            "city": "Anaheim",
+            "results": {
                 "Top 5": [
                     "The Blind Rabbit",
                     "Anaheim Packing District",
@@ -729,7 +785,8 @@
             }
         },
         {
-            "Santa Ana": {
+            "city": "Santa Ana",
+            "results": {
                 "Top 5": [
                     "Benchmark",
                     "Playground",
@@ -742,62 +799,67 @@
             }
         },
         {
-            "St Louis": {
+            "city": "St Louis",
+            "results": {
                 "Top 5": [
                     "Olive + Oak",
                     "Pappy's Smokehouse",
-                    "Broadway Oyster Bar",
-                    "Sugarfire Smoke House",
-                    "Salt + Smoke"
+                    "Blues City Deli",
+                    "Salt + Smoke",
+                    "Sugarfire Smoke House"
                 ],
-                "Average Rating": 4.5,
-                "Average Price": "Pricey"
+                "Average Rating": 4.6,
+                "Average Price": "Moderate"
             }
         },
         {
-            "Riverside": {
+            "city": "Riverside",
+            "results": {
                 "Top 5": [
                     "Corner Kitchen",
                     "HaolePino Hawaiian-FIlipino Island Cuisine",
+                    "Table 33",
                     "La Colombiana",
-                    "Old Scratch Pizza",
-                    "Mudlick Tap House"
+                    "Lily's Bistro"
                 ],
                 "Average Rating": 4.4,
                 "Average Price": "Moderate"
             }
         },
         {
-            "Corpus Christi": {
+            "city": "Corpus Christi",
+            "results": {
                 "Top 5": [
                     "The Blue Clove Seafood Bar and Grill",
                     "Salt Water Grill",
                     "Black Diamond Oyster Bar",
-                    "Crescendo Cafe",
-                    "Ramen Legend"
-                ],
-                "Average Rating": 4.3,
-                "Average Price": "Moderate"
-            }
-        },
-        {
-            "Lexington": {
-                "Top 5": [
-                    "Carson's Food And Drink",
-                    "The Village Idiot",
-                    "OBC Kitchen",
-                    "Bourbon On Rye",
-                    "Oscar Diggs"
+                    "8TE",
+                    "Crescendo Cafe"
                 ],
                 "Average Rating": 4.4,
                 "Average Price": "Moderate"
             }
         },
         {
-            "Pittsburgh": {
+            "city": "Lexington",
+            "results": {
                 "Top 5": [
-                    "Meat & Potatoes",
+                    "Carson's Food And Drink",
+                    "The Village Idiot",
+                    "Dad's Favorites",
+                    "Oscar Diggs",
+                    "OBC Kitchen"
+                ],
+                "Average Rating": 4.5,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Pittsburgh",
+            "results": {
+                "Top 5": [
                     "Gaucho Parrilla Argentina",
+                    "Meat & Potatoes",
                     "täkō",
                     "Butcher and the Rye",
                     "Smallman Galley"
@@ -807,7 +869,8 @@
             }
         },
         {
-            "Anchorage": {
+            "city": "Anchorage",
+            "results": {
                 "Top 5": [
                     "Glacier BrewHouse",
                     "Moose's Tooth",
@@ -820,7 +883,8 @@
             }
         },
         {
-            "Stockton": {
+            "city": "Stockton",
+            "results": {
                 "Top 5": [
                     "Fat City Brew & Bbq",
                     "The Kitchen at  StoneBrier",
@@ -833,85 +897,92 @@
             }
         },
         {
-            "Cincinnati": {
+            "city": "Cincinnati",
+            "results": {
                 "Top 5": [
                     "The Eagle",
                     "Delwood",
-                    "Sotto",
-                    "LouVino OTR",
-                    "Losanti"
+                    "Boomtown Biscuits & Whiskey",
+                    "Mazunte Taqueria",
+                    "LouVino OTR"
                 ],
                 "Average Rating": 4.6,
-                "Average Price": "Pricey"
+                "Average Price": "Moderate"
             }
         },
         {
-            "Saint Paul": {
+            "city": "Saint Paul",
+            "results": {
                 "Top 5": [
                     "Tongue In Cheek",
                     "Handsome Hog",
-                    "DeGidio's Restaurant & Bar",
                     "The Happy Gnome",
-                    "Gray Duck Tavern"
+                    "Gray Duck Tavern",
+                    "The Naughty Greek"
                 ],
                 "Average Rating": 4.2,
                 "Average Price": "Moderate"
             }
         },
         {
-            "Toledo": {
+            "city": "Toledo",
+            "results": {
                 "Top 5": [
                     "Grumpy's",
                     "Whiskey & The Wolf",
                     "Ye Olde Durty Bird",
-                    "QQ Kitchen",
-                    "Souk Mediterranean Kitchen And Bar"
+                    "The Adams Street Café",
+                    "QQ Kitchen"
                 ],
                 "Average Rating": 4.4,
                 "Average Price": "Moderate"
             }
         },
         {
-            "Greensboro": {
+            "city": "Greensboro",
+            "results": {
                 "Top 5": [
+                    "Dame's Chicken & Waffles",
                     "913 Whiskey Bar & Southern Kitchen",
                     "Freeman's Grub & Pub",
                     "Blue Denim Restaurant",
-                    "Darryl's Wood Fired Grill",
-                    "Dame's Chicken & Waffles"
-                ],
-                "Average Rating": 4.4,
-                "Average Price": "Moderate"
-            }
-        },
-        {
-            "Newark": {
-                "Top 5": [
-                    "Casa d'Paco",
-                    "Sabor Unido",
-                    "Fornos of Spain",
-                    "Bello's Pub & Grill",
-                    "Fernandes Steak House"
-                ],
-                "Average Rating": 4.3,
-                "Average Price": "Pricey"
-            }
-        },
-        {
-            "Plano": {
-                "Top 5": [
-                    "CraftWay Kitchen",
-                    "Rolls by Chubby Cattle",
-                    "Kenny's Smoke House",
-                    "Whiskey Cake",
-                    "Bulla Gastrobar"
+                    "Hops Burger Bar"
                 ],
                 "Average Rating": 4.5,
                 "Average Price": "Moderate"
             }
         },
         {
-            "Henderson": {
+            "city": "Newark",
+            "results": {
+                "Top 5": [
+                    "Casa d'Paco",
+                    "Sabor Unido",
+                    "Fornos of Spain",
+                    "Ramen Gami",
+                    "Bello's Pub & Grill"
+                ],
+                "Average Rating": 4.4,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Plano",
+            "results": {
+                "Top 5": [
+                    "CraftWay Kitchen",
+                    "Rolls by Chubby Cattle",
+                    "Wu Wei Din Chinese Cuisine",
+                    "Whiskey Cake",
+                    "Haywire"
+                ],
+                "Average Rating": 4.4,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Henderson",
+            "results": {
                 "Top 5": [
                     "8 Kitchen",
                     "Hashbrown",
@@ -924,46 +995,50 @@
             }
         },
         {
-            "Lincoln": {
+            "city": "Lincoln",
+            "results": {
                 "Top 5": [
                     "LeadBelly",
                     "Sebastian's Table",
-                    "The Single Barrel",
-                    "The Copper Kettle",
-                    "SchillingBridge Cork & Tap House"
-                ],
-                "Average Rating": 4.3,
-                "Average Price": "Moderate"
-            }
-        },
-        {
-            "Buffalo": {
-                "Top 5": [
-                    "The Dapper Goose",
-                    "Inizio",
-                    "Osteria 166",
-                    "Toutant",
-                    "Winfield's Pub"
+                    "Phat Jacks",
+                    "Honest Abe's Burgers and Freedom",
+                    "Rutabagas"
                 ],
                 "Average Rating": 4.4,
                 "Average Price": "Moderate"
             }
         },
         {
-            "Jersey City": {
+            "city": "Buffalo",
+            "results": {
                 "Top 5": [
-                    "DOMODOMO Jersey City",
-                    "Cellar 335",
-                    "Luna Restaurant",
-                    "Hooked JC",
-                    "Dullboy"
+                    "The Dapper Goose",
+                    "Inizio",
+                    "Toutant",
+                    "Osteria 166",
+                    "Sophia's Restaurant"
                 ],
-                "Average Rating": 4.2,
+                "Average Rating": 4.4,
                 "Average Price": "Moderate"
             }
         },
         {
-            "Chula Vista": {
+            "city": "Jersey City",
+            "results": {
+                "Top 5": [
+                    "DOMODOMO Jersey City",
+                    "Hooked JC",
+                    "Cellar 335",
+                    "Pinwheel Garden Dumpling & Noodle Bar",
+                    "Pr&ince"
+                ],
+                "Average Rating": 4.4,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Chula Vista",
+            "results": {
                 "Top 5": [
                     "The Kebab Shop",
                     "Tacos El Gordo",
@@ -976,64 +1051,69 @@
             }
         },
         {
-            "Fort Wayne": {
+            "city": "Fort Wayne",
+            "results": {
                 "Top 5": [
                     "Junk Ditch Brewing Company",
                     "Storming Crab",
-                    "Copper Spoon",
+                    "Pastors Place",
                     "Three Rivers Distilling Company",
-                    "Pastors Place"
+                    "Copper Spoon"
                 ],
                 "Average Rating": 4.5,
                 "Average Price": "Moderate"
             }
         },
         {
-            "Orlando": {
+            "city": "Orlando",
+            "results": {
                 "Top 5": [
-                    "The Stubborn Mule",
-                    "Seito Sushi",
                     "Pig Floyd's Urban Barbakoa",
+                    "Bar Harbor Seafood",
                     "Hungry Pants",
-                    "Santiago's Bodega"
-                ],
-                "Average Rating": 4.5,
-                "Average Price": "Moderate"
-            }
-        },
-        {
-            "St Petersburg": {
-                "Top 5": [
-                    "Noble Crust",
-                    "1200 Chophouse",
-                    "the bier boutique",
-                    "Hawkers Asian Street Fare",
-                    "Snapper's Sea Grill"
+                    "The Stubborn Mule",
+                    "The Gnarly Barley"
                 ],
                 "Average Rating": 4.4,
-                "Average Price": "Pricey"
+                "Average Price": "Moderate"
             }
         },
         {
-            "Chandler": {
+            "city": "St Petersburg",
+            "results": {
+                "Top 5": [
+                    "Brooklyn South",
+                    "Noble Crust",
+                    "The Mill Restaurant",
+                    "the bier boutique",
+                    "Dead Bob's"
+                ],
+                "Average Rating": 4.4,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Chandler",
+            "results": {
                 "Top 5": [
                     "The Hidden House",
                     "The Brickyard Downtown",
-                    "Craft 64  Pizzeria & Brewpub Chandler",
                     "Mr Brews Taphouse",
-                    "The Ivy"
+                    "The Ivy",
+                    "Hash Kitchen"
                 ],
                 "Average Rating": 4.4,
                 "Average Price": "Moderate"
             }
         },
         {
-            "Laredo": {
+            "city": "Laredo",
+            "results": {
                 "Top 5": [
                     "Las Kekas",
                     "Tabernilla",
-                    "Border Foundry Restaurant & Bar",
                     "El Capataz",
+                    "Border Foundry Restaurant & Bar",
                     "Korean BBQ"
                 ],
                 "Average Rating": 4.4,
@@ -1041,59 +1121,64 @@
             }
         },
         {
-            "Norfolk": {
+            "city": "Norfolk",
+            "results": {
                 "Top 5": [
                     "Blanca",
+                    "My Mama's Kitchen",
                     "350 Grace",
                     "Nouvelle Restaurant",
-                    "My Mama's Kitchen",
-                    "The Green House Kitchen"
+                    "The Grilled Cheese Bistro"
                 ],
                 "Average Rating": 4.6,
                 "Average Price": "Moderate"
             }
         },
         {
-            "Durham": {
+            "city": "Durham",
+            "results": {
                 "Top 5": [
-                    "It's a Southern thing: Kitchen and Bar",
                     "Dame's Chicken & Waffles",
-                    "Cucciolo Osteria",
-                    "Nana's",
-                    "Sister Liu's Kitchen"
+                    "It's a Southern thing: Kitchen and Bar",
+                    "Sister Liu's Kitchen",
+                    "M Kokko",
+                    "KoKyu Na'Mean"
+                ],
+                "Average Rating": 4.3,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Madison",
+            "results": {
+                "Top 5": [
+                    "Graft",
+                    "Graze",
+                    "The Old Fashioned",
+                    "Pig in a Fur Coat",
+                    "Heritage Tavern"
                 ],
                 "Average Rating": 4.3,
                 "Average Price": "Pricey"
             }
         },
         {
-            "Madison": {
-                "Top 5": [
-                    "Graft",
-                    "Graze",
-                    "Pig in a Fur Coat",
-                    "Heritage Tavern",
-                    "Nook"
-                ],
-                "Average Rating": 4.5,
-                "Average Price": "Pricey"
-            }
-        },
-        {
-            "Lubbock": {
+            "city": "Lubbock",
+            "results": {
                 "Top 5": [
                     "The West Table",
                     "The Crafthouse",
-                    "The Shack BBQ",
-                    "Triple J's Chop House & Brew Pub",
-                    "Growler USA - Lubbock"
+                    "Cast Iron Grill",
+                    "Growler USA - Lubbock",
+                    "The Shack BBQ"
                 ],
-                "Average Rating": 4.2,
+                "Average Rating": 4.3,
                 "Average Price": "Pricey"
             }
         },
         {
-            "Irvine": {
+            "city": "Irvine",
+            "results": {
                 "Top 5": [
                     "Everyday Eatery",
                     "Noodology",
@@ -1106,12 +1191,13 @@
             }
         },
         {
-            "Winston–Salem": {
+            "city": "Winston–Salem",
+            "results": {
                 "Top 5": [
                     "Hops Burger Bar",
                     "Sweet Potatoes",
                     "Trade Street Diner",
-                    "New Sichuan",
+                    "Slappy's Chicken",
                     "Viva Chicken"
                 ],
                 "Average Rating": 4.6,
@@ -1119,46 +1205,50 @@
             }
         },
         {
-            "Glendale": {
+            "city": "Glendale",
+            "results": {
                 "Top 5": [
                     "眞 Jin Cook - Authentic Korean Soul Food",
-                    "Hot Chix",
                     "Din Tai Fung",
+                    "Brick & Flour",
                     "ROCKBIRD",
-                    "Brick & Flour"
+                    "Raffi's Place"
                 ],
                 "Average Rating": 4.3,
                 "Average Price": "Moderate"
             }
         },
         {
-            "Garland": {
+            "city": "Garland",
+            "results": {
                 "Top 5": [
                     "Tranky's Tacos",
-                    "Wildwood Smoke Craft Whiskey",
-                    "The Blue Rat Thai kitchen",
                     "Intrinsic Smokehouse & Brewery",
-                    "Babe's Chicken Dinner House"
+                    "The Blue Rat Thai kitchen",
+                    "Babe's Chicken Dinner House",
+                    "Wildwood Smoke Craft Whiskey"
                 ],
                 "Average Rating": 4.4,
                 "Average Price": "Moderate"
             }
         },
         {
-            "Hialeah": {
+            "city": "Hialeah",
+            "results": {
                 "Top 5": [
                     "La Fresa Francesa",
-                    "Alamo Restaurant",
                     "Pan.com Sandwicheria",
-                    "I Heart Fries",
-                    "La Bodeguita Restaurant"
+                    "Alamo Restaurant",
+                    "Franky's Deli Warehouse",
+                    "Trigo Café"
                 ],
-                "Average Rating": 4.5,
+                "Average Rating": 4.7,
                 "Average Price": "Moderate"
             }
         },
         {
-            "Reno": {
+            "city": "Reno",
+            "results": {
                 "Top 5": [
                     "The Depot Craft Brewery Distillery",
                     "Naan & Kabab",
@@ -1171,63 +1261,68 @@
             }
         },
         {
-            "Chesapeake": {
+            "city": "Chesapeake",
+            "results": {
                 "Top 5": [
                     "Ddeb's A Taste of Home",
                     "Off The Hook Seafood Restaurant",
-                    "The Butcher's Son",
+                    "The BBQ Shack",
                     "The Garage Brewery",
                     "Cutlass Grille"
-                ],
-                "Average Rating": 4.4,
-                "Average Price": "Pricey"
-            }
-        },
-        {
-            "Gilbert": {
-                "Top 5": [
-                    "Culinary Dropout",
-                    "Not Your Typical Deli",
-                    "Caldwell County BBQ",
-                    "Clay Dawgs",
-                    "High Tide Seafood Bar & Grill"
                 ],
                 "Average Rating": 4.5,
                 "Average Price": "Moderate"
             }
         },
         {
-            "Baton Rouge": {
+            "city": "Gilbert",
+            "results": {
+                "Top 5": [
+                    "Not Your Typical Deli",
+                    "Clay Dawgs",
+                    "Culinary Dropout",
+                    "Caldwell County BBQ",
+                    "Joe's Farm Grill"
+                ],
+                "Average Rating": 4.5,
+                "Average Price": "Moderate"
+            }
+        },
+        {
+            "city": "Baton Rouge",
+            "results": {
                 "Top 5": [
                     "Parrain's Seafood",
                     "Elsie's Plate & Pie",
                     "Roux 61 Seafood & Grill",
                     "Rouj Creole",
-                    "Southern Pearl Oyster House"
+                    "City Pork Brasserie & Bar"
                 ],
-                "Average Rating": 4.2,
+                "Average Rating": 4.3,
                 "Average Price": "Moderate"
             }
         },
         {
-            "Irving": {
+            "city": "Irving",
+            "results": {
                 "Top 5": [
                     "The Ranch",
+                    "Empa Mundo",
+                    "Andalous Mediterranean Grill",
                     "Mr Max",
-                    "Hugo's Invitados",
-                    "Peak Restaurant and Bar",
-                    "Cork & Pig Tavern"
+                    "Whiskey Cake"
                 ],
-                "Average Rating": 4.4,
+                "Average Rating": 4.3,
                 "Average Price": "Moderate"
             }
         },
         {
-            "Scottsdale": {
+            "city": "Scottsdale",
+            "results": {
                 "Top 5": [
+                    "Grassroots Kitchen & Tap",
                     "Sophia's Kitchen",
                     "Vic & Ola's",
-                    "Grassroots Kitchen & Tap",
                     "Hush Public House",
                     "Salty Sow"
                 ],
@@ -1236,7 +1331,8 @@
             }
         },
         {
-            "North Las Vegas": {
+            "city": "North Las Vegas",
+            "results": {
                 "Top 5": [
                     "Tokyo Cafe",
                     "Texas Roadhouse",
@@ -1249,7 +1345,8 @@
             }
         },
         {
-            "Fremont": {
+            "city": "Fremont",
+            "results": {
                 "Top 5": [
                     "Little by Little",
                     "Layang Layang Express",
@@ -1262,25 +1359,27 @@
             }
         },
         {
-            "Boise": {
+            "city": "Boise",
+            "results": {
                 "Top 5": [
                     "Fork",
-                    "Trillium",
                     "Bittercreek Alehouse",
-                    "Barbacoa Grill",
-                    "Petite 4"
+                    "Trillium",
+                    "Petite 4",
+                    "Cucina Di Paolo"
                 ],
-                "Average Rating": 4.4,
+                "Average Rating": 4.5,
                 "Average Price": "Pricey"
             }
         },
         {
-            "Richmond": {
+            "city": "Richmond",
+            "results": {
                 "Top 5": [
+                    "Lunch Or Supper",
                     "Heritage",
                     "Stella's",
-                    "Lunch Or Supper",
-                    "Laura Lee's",
+                    "Secret Sandwich Society",
                     "The Broken Tulip"
                 ],
                 "Average Rating": 4.5,
@@ -1288,7 +1387,8 @@
             }
         },
         {
-            "San Bernardino": {
+            "city": "San Bernardino",
+            "results": {
                 "Top 5": [
                     "Ramen Jo",
                     "The Cutting Board Restaurant & Bar",

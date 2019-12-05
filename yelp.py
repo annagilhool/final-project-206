@@ -23,8 +23,9 @@ for i in city_list:
     params = {'term':'restaurants','location': i}
 
     #making dict
-    city = {}
-    city[i] = {}
+    data_dict = {}
+    data_dict['city'] = i
+    data_dict['results'] = {}
 
     # Making a get request to the API
     req=requests.get(url, params=params, headers=headers)
@@ -63,7 +64,7 @@ for i in city_list:
             break
     # print(top_rest)
 
-    city[i]['Top 5'] = names
+    data_dict['results']['Top 5'] = names
 
     #gathering top 5 results ratings
     top_rest_ratings = []
@@ -78,7 +79,7 @@ for i in city_list:
     average_rating = sum(ratings)/len(ratings)
     # print(average_rating)
 
-    city[i]['Average Rating'] = average_rating
+    data_dict['results']['Average Rating'] = average_rating
 
     #gathering top 5 results prices
     top_rest_price = []
@@ -122,10 +123,10 @@ for i in city_list:
 
     # print(final_price)
 
-    city[i]['Average Price'] = final_price
+    data_dict['results']['Average Price'] = final_price
 
     #making dictionary
-    yelp_data.append(city)
+    yelp_data.append(data_dict)
 
 dict['yelp_data'] = yelp_data
 print(dict)
