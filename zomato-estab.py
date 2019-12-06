@@ -73,7 +73,7 @@ sub_dict = {}
 for city, cuisine in zip(city_list, list_cuisines):
     sub_dict = {}
     sub_dict['city'] = city
-    sub_dict['cuisines'] = cuisine
+    sub_dict['establishments'] = cuisine
     cuisines_by_city.append(sub_dict)
 
 
