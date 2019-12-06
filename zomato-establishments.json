@@ -2,7 +2,7 @@
     "data": [
         {
             "city": "New York",
-            "cuisines": [
+            "establishments": [
                 "Quick Bites",
                 "Sandwich Shop",
                 "Café",
@@ -41,7 +41,7 @@
         },
         {
             "city": "Los Angeles",
-            "cuisines": [
+            "establishments": [
                 "Pizzeria",
                 "Bakery",
                 "Wine Bar",
@@ -77,7 +77,7 @@
         },
         {
             "city": "Chicago",
-            "cuisines": [
+            "establishments": [
                 "Fast Casual",
                 "Fast Food",
                 "Bar",
@@ -114,7 +114,7 @@
         },
         {
             "city": "Houston",
-            "cuisines": [
+            "establishments": [
                 "Casual Dining",
                 "Bar",
                 "Sandwich Shop",
@@ -151,7 +151,7 @@
         },
         {
             "city": "Philadelphia",
-            "cuisines": [
+            "establishments": [
                 "Café",
                 "Bar",
                 "Casual Dining",
@@ -183,7 +183,7 @@
         },
         {
             "city": "Phoenix",
-            "cuisines": [
+            "establishments": [
                 "Diner",
                 "Dessert Parlour",
                 "Fast Food",
@@ -215,7 +215,7 @@
         },
         {
             "city": "San Antonio",
-            "cuisines": [
+            "establishments": [
                 "Casual Dining",
                 "Quick Bites",
                 "Fast Food",
@@ -250,7 +250,7 @@
         },
         {
             "city": "San Diego",
-            "cuisines": [
+            "establishments": [
                 "Casual Dining",
                 "Fast Food",
                 "Pizzeria",
@@ -285,7 +285,7 @@
         },
         {
             "city": "Dallas",
-            "cuisines": [
+            "establishments": [
                 "Casual Dining",
                 "Fine Dining",
                 "Lounge",
@@ -322,7 +322,7 @@
         },
         {
             "city": "San Jose",
-            "cuisines": [
+            "establishments": [
                 "Bakery",
                 "Pizzeria",
                 "Bar",
@@ -353,7 +353,7 @@
         },
         {
             "city": "Austin",
-            "cuisines": [
+            "establishments": [
                 "Casual Dining",
                 "Café",
                 "Bakery",
@@ -387,7 +387,7 @@
         },
         {
             "city": "Indianapolis",
-            "cuisines": [
+            "establishments": [
                 "Fast Casual",
                 "Bakery",
                 "Casual Dining",
@@ -422,7 +422,7 @@
         },
         {
             "city": "Jacksonville",
-            "cuisines": [
+            "establishments": [
                 "Bakery",
                 "Bar",
                 "Casual Dining",
@@ -454,7 +454,7 @@
         },
         {
             "city": "San Francisco",
-            "cuisines": [
+            "establishments": [
                 "Microbrewery",
                 "Quick Bites",
                 "Food Court",
@@ -490,7 +490,7 @@
         },
         {
             "city": "Columbus",
-            "cuisines": [
+            "establishments": [
                 "Bakery",
                 "Bar",
                 "Casual Dining",
@@ -522,7 +522,7 @@
         },
         {
             "city": "Charlotte",
-            "cuisines": [
+            "establishments": [
                 "Casual Dining",
                 "Quick Bites",
                 "Sandwich Shop",
@@ -557,7 +557,7 @@
         },
         {
             "city": "Fort Worth",
-            "cuisines": [
+            "establishments": [
                 "Taqueria",
                 "Casual Dining",
                 "Bar",
@@ -590,7 +590,7 @@
         },
         {
             "city": "Detroit",
-            "cuisines": [
+            "establishments": [
                 "Casual Dining",
                 "Bakery",
                 "Noodle Shop",
@@ -624,7 +624,7 @@
         },
         {
             "city": "El Paso",
-            "cuisines": [
+            "establishments": [
                 "Bakery",
                 "Casual Dining",
                 "Fast Food",
@@ -651,7 +651,7 @@
         },
         {
             "city": "Memphis",
-            "cuisines": [
+            "establishments": [
                 "Fast Food",
                 "Casual Dining",
                 "Quick Bites",
@@ -682,7 +682,7 @@
         },
         {
             "city": "Seattle",
-            "cuisines": [
+            "establishments": [
                 "Fine Dining",
                 "Casual Dining",
                 "Wine Bar",
@@ -717,7 +717,7 @@
         },
         {
             "city": "Denver",
-            "cuisines": [
+            "establishments": [
                 "Casual Dining",
                 "Bar",
                 "Club",
@@ -750,7 +750,7 @@
         },
         {
             "city": "Washington",
-            "cuisines": [
+            "establishments": [
                 "Quick Bites",
                 "Casual Dining",
                 "Bar",
@@ -786,7 +786,7 @@
         },
         {
             "city": "Boston",
-            "cuisines": [
+            "establishments": [
                 "Fast Food",
                 "Casual Dining",
                 "Bar",
@@ -818,7 +818,7 @@
         },
         {
             "city": "Nashville",
-            "cuisines": [
+            "establishments": [
                 "Wine Bar",
                 "Casual Dining",
                 "Bar",
@@ -849,7 +849,7 @@
         },
         {
             "city": "Baltimore",
-            "cuisines": [
+            "establishments": [
                 "Café",
                 "Fast Food",
                 "Casual Dining",
@@ -882,7 +882,7 @@
         },
         {
             "city": "Oklahoma City",
-            "cuisines": [
+            "establishments": [
                 "Fine Dining",
                 "Bakery",
                 "Casual Dining",
@@ -914,7 +914,7 @@
         },
         {
             "city": "Louisville",
-            "cuisines": [
+            "establishments": [
                 "Casual Dining",
                 "Bar",
                 "Pub",
@@ -947,7 +947,7 @@
         },
         {
             "city": "Portland",
-            "cuisines": [
+            "establishments": [
                 "Casual Dining",
                 "Pizzeria",
                 "Fine Dining",
@@ -981,7 +981,7 @@
         },
         {
             "city": "Las Vegas",
-            "cuisines": [
+            "establishments": [
                 "Fast Food",
                 "Bakery",
                 "Café",
@@ -1014,7 +1014,7 @@
         },
         {
             "city": "Milwaukee",
-            "cuisines": [
+            "establishments": [
                 "Bakery",
                 "Fast Food",
                 "Casual Dining",
@@ -1045,7 +1045,7 @@
         },
         {
             "city": "Albuquerque",
-            "cuisines": [
+            "establishments": [
                 "Bakery",
                 "Casual Dining",
                 "Fast Food",
@@ -1072,7 +1072,7 @@
         },
         {
             "city": "Tucson",
-            "cuisines": [
+            "establishments": [
                 "Casual Dining",
                 "Bakery",
                 "Fast Food",
@@ -1094,7 +1094,7 @@
         },
         {
             "city": "Fresno",
-            "cuisines": [
+            "establishments": [
                 "Wine Bar",
                 "Casual Dining",
                 "Bakery",
@@ -1126,7 +1126,7 @@
         },
         {
             "city": "Sacramento",
-            "cuisines": [
+            "establishments": [
                 "Casual Dining",
                 "Bakery",
                 "Dessert Parlour",
@@ -1152,7 +1152,7 @@
         },
         {
             "city": "Long Beach",
-            "cuisines": [
+            "establishments": [
                 "Casual Dining",
                 "Bar",
                 "Wine Bar",
@@ -1183,7 +1183,7 @@
         },
         {
             "city": "Kansas City",
-            "cuisines": [
+            "establishments": [
                 "Fast Casual",
                 "Casual Dining",
                 "Wine Bar",
@@ -1210,7 +1210,7 @@
         },
         {
             "city": "Mesa",
-            "cuisines": [
+            "establishments": [
                 "Casual Dining",
                 "Bar",
                 "Bakery",
@@ -1242,7 +1242,7 @@
         },
         {
             "city": "Virginia Beach",
-            "cuisines": [
+            "establishments": [
                 "Fine Dining",
                 "Casual Dining",
                 "Bar",
@@ -1279,7 +1279,7 @@
         },
         {
             "city": "Atlanta",
-            "cuisines": [
+            "establishments": [
                 "Wine Bar",
                 "Casual Dining",
                 "Fast Food",
@@ -1310,7 +1310,7 @@
         },
         {
             "city": "Colorado Springs",
-            "cuisines": [
+            "establishments": [
                 "Casual Dining",
                 "Wine Bar",
                 "Fast Food",
@@ -1341,7 +1341,7 @@
         },
         {
             "city": "Omaha",
-            "cuisines": [
+            "establishments": [
                 "Casual Dining",
                 "Fine Dining",
                 "Fast Food",
@@ -1351,7 +1351,7 @@
         },
         {
             "city": "Raleigh",
-            "cuisines": [
+            "establishments": [
                 "Casual Dining",
                 "Lounge",
                 "Bakery",
@@ -1390,7 +1390,7 @@
         },
         {
             "city": "Miami",
-            "cuisines": [
+            "establishments": [
                 "Taqueria",
                 "Fast Casual",
                 "Casual Dining",
@@ -1421,7 +1421,7 @@
         },
         {
             "city": "Oakland",
-            "cuisines": [
+            "establishments": [
                 "Pizzeria",
                 "Casual Dining",
                 "Fast Food",
@@ -1430,7 +1430,7 @@
         },
         {
             "city": "Minneapolis",
-            "cuisines": [
+            "establishments": [
                 "Café",
                 "Bakery",
                 "Casual Dining",
@@ -1460,7 +1460,7 @@
         },
         {
             "city": "Tulsa",
-            "cuisines": [
+            "establishments": [
                 "Casual Dining",
                 "Bakery",
                 "Bar",
@@ -1493,7 +1493,7 @@
         },
         {
             "city": "Cleveland",
-            "cuisines": [
+            "establishments": [
                 "Fast Food",
                 "Casual Dining",
                 "Pizzeria",
@@ -1523,7 +1523,7 @@
         },
         {
             "city": "Wichita",
-            "cuisines": [
+            "establishments": [
                 "Casual Dining",
                 "Deli",
                 "Bar",
@@ -1553,7 +1553,7 @@
         },
         {
             "city": "Arlington",
-            "cuisines": [
+            "establishments": [
                 "Casual Dining",
                 "Bakery",
                 "Diner",
@@ -1586,7 +1586,7 @@
         },
         {
             "city": "New Orleans",
-            "cuisines": [
+            "establishments": [
                 "Fast Food",
                 "Café",
                 "Bakery",
@@ -1609,7 +1609,7 @@
         },
         {
             "city": "Bakersfield",
-            "cuisines": [
+            "establishments": [
                 "Wine Bar",
                 "Bakery",
                 "Food Truck",
@@ -1642,7 +1642,7 @@
         },
         {
             "city": "Tampa",
-            "cuisines": [
+            "establishments": [
                 "Café",
                 "Bakery",
                 "Wine Bar",
@@ -1675,7 +1675,7 @@
         },
         {
             "city": "Honolulu",
-            "cuisines": [
+            "establishments": [
                 "Casual Dining",
                 "Bakery",
                 "Vineyard",
@@ -1685,7 +1685,7 @@
         },
         {
             "city": "Aurora",
-            "cuisines": [
+            "establishments": [
                 "Casual Dining",
                 "Bakery",
                 "Dessert Parlour",
@@ -1711,7 +1711,7 @@
         },
         {
             "city": "Anaheim",
-            "cuisines": [
+            "establishments": [
                 "Casual Dining",
                 "Café",
                 "Bar",
@@ -1745,7 +1745,7 @@
         },
         {
             "city": "Santa Ana",
-            "cuisines": [
+            "establishments": [
                 "Bar",
                 "Bakery",
                 "Noodle Shop",
@@ -1779,11 +1779,11 @@
         },
         {
             "city": "St Louis",
-            "cuisines": []
+            "establishments": []
         },
         {
             "city": "Riverside",
-            "cuisines": [
+            "establishments": [
                 "Bakery",
                 "Casual Dining",
                 "Fast Food",
@@ -1812,7 +1812,7 @@
         },
         {
             "city": "Corpus Christi",
-            "cuisines": [
+            "establishments": [
                 "Fast Food",
                 "Casual Dining",
                 "Café",
@@ -1844,7 +1844,7 @@
         },
         {
             "city": "Lexington",
-            "cuisines": [
+            "establishments": [
                 "Bakery",
                 "Casual Dining",
                 "Bar",
@@ -1878,7 +1878,7 @@
         },
         {
             "city": "Pittsburgh",
-            "cuisines": [
+            "establishments": [
                 "Casual Dining",
                 "Fast Food",
                 "Bakery",
@@ -1906,7 +1906,7 @@
         },
         {
             "city": "Anchorage",
-            "cuisines": [
+            "establishments": [
                 "Casual Dining",
                 "Fast Food",
                 "Bakery",
@@ -1931,7 +1931,7 @@
         },
         {
             "city": "Stockton",
-            "cuisines": [
+            "establishments": [
                 "Casual Dining",
                 "Taqueria",
                 "Sandwich Shop",
@@ -1964,7 +1964,7 @@
         },
         {
             "city": "Cincinnati",
-            "cuisines": [
+            "establishments": [
                 "Bakery",
                 "Food Truck",
                 "Bar",
@@ -1974,7 +1974,7 @@
         },
         {
             "city": "Saint Paul",
-            "cuisines": [
+            "establishments": [
                 "Casual Dining",
                 "Fast Food",
                 "Taqueria",
@@ -2001,14 +2001,14 @@
         },
         {
             "city": "Toledo",
-            "cuisines": [
+            "establishments": [
                 "Fast Food",
                 "Bakery"
             ]
         },
         {
             "city": "Greensboro",
-            "cuisines": [
+            "establishments": [
                 "Casual Dining",
                 "Bar",
                 "Fine Dining",
@@ -2031,7 +2031,7 @@
         },
         {
             "city": "Newark",
-            "cuisines": [
+            "establishments": [
                 "Casual Dining",
                 "Quick Bites",
                 "Fast Food",
@@ -2062,7 +2062,7 @@
         },
         {
             "city": "Plano",
-            "cuisines": [
+            "establishments": [
                 "Casual Dining",
                 "Fast Food",
                 "Bakery",
@@ -2075,7 +2075,7 @@
         },
         {
             "city": "Henderson",
-            "cuisines": [
+            "establishments": [
                 "Fast Food",
                 "Pizzeria",
                 "Bakery",
@@ -2102,7 +2102,7 @@
         },
         {
             "city": "Lincoln",
-            "cuisines": [
+            "establishments": [
                 "Casual Dining",
                 "Food Truck",
                 "Bakery",
@@ -2133,7 +2133,7 @@
         },
         {
             "city": "Buffalo",
-            "cuisines": [
+            "establishments": [
                 "Casual Dining",
                 "Diner",
                 "Fast Food",
@@ -2160,7 +2160,7 @@
         },
         {
             "city": "Jersey City",
-            "cuisines": [
+            "establishments": [
                 "Casual Dining",
                 "Sandwich Shop",
                 "Bakery",
@@ -2173,7 +2173,7 @@
         },
         {
             "city": "Chula Vista",
-            "cuisines": [
+            "establishments": [
                 "Fast Food",
                 "Quick Bites",
                 "Casual Dining",
@@ -2200,7 +2200,7 @@
         },
         {
             "city": "Fort Wayne",
-            "cuisines": [
+            "establishments": [
                 "Pizzeria",
                 "Casual Dining",
                 "Café",
@@ -2236,7 +2236,7 @@
         },
         {
             "city": "Orlando",
-            "cuisines": [
+            "establishments": [
                 "Bakery",
                 "Bar",
                 "Casual Dining",
@@ -2264,7 +2264,7 @@
         },
         {
             "city": "St Petersburg",
-            "cuisines": [
+            "establishments": [
                 "Pizzeria",
                 "Casual Dining",
                 "Taqueria",
@@ -2291,7 +2291,7 @@
         },
         {
             "city": "Chandler",
-            "cuisines": [
+            "establishments": [
                 "Casual Dining",
                 "Fast Food",
                 "Bakery",
@@ -2308,7 +2308,7 @@
         },
         {
             "city": "Laredo",
-            "cuisines": [
+            "establishments": [
                 "Fast Casual",
                 "Quick Bites",
                 "Juice Bar"
@@ -2316,7 +2316,7 @@
         },
         {
             "city": "Norfolk",
-            "cuisines": [
+            "establishments": [
                 "Casual Dining",
                 "Fast Food",
                 "Bakery",
@@ -2341,7 +2341,7 @@
         },
         {
             "city": "Durham",
-            "cuisines": [
+            "establishments": [
                 "Café",
                 "Bakery",
                 "Fast Food",
@@ -2370,7 +2370,7 @@
         },
         {
             "city": "Madison",
-            "cuisines": [
+            "establishments": [
                 "Bakery",
                 "Fast Food",
                 "Casual Dining",
@@ -2396,7 +2396,7 @@
         },
         {
             "city": "Lubbock",
-            "cuisines": [
+            "establishments": [
                 "Casual Dining",
                 "Fast Food",
                 "Pizzeria",
@@ -2407,7 +2407,7 @@
         },
         {
             "city": "Irvine",
-            "cuisines": [
+            "establishments": [
                 "Pizzeria",
                 "Bakery",
                 "Casual Dining",
@@ -2435,7 +2435,7 @@
         },
         {
             "city": "Winston–Salem",
-            "cuisines": [
+            "establishments": [
                 "Bakery",
                 "Fast Food",
                 "Pizzeria",
@@ -2457,7 +2457,7 @@
         },
         {
             "city": "Glendale",
-            "cuisines": [
+            "establishments": [
                 "Fast Food",
                 "Casual Dining",
                 "Bakery",
@@ -2483,7 +2483,7 @@
         },
         {
             "city": "Garland",
-            "cuisines": [
+            "establishments": [
                 "Casual Dining",
                 "Lounge",
                 "Bakery",
@@ -2522,7 +2522,7 @@
         },
         {
             "city": "Hialeah",
-            "cuisines": [
+            "establishments": [
                 "Café",
                 "Casual Dining",
                 "Bar",
@@ -2552,13 +2552,13 @@
         },
         {
             "city": "Reno",
-            "cuisines": [
+            "establishments": [
                 "Fast Food"
             ]
         },
         {
             "city": "Chesapeake",
-            "cuisines": [
+            "establishments": [
                 "Casual Dining",
                 "Pizzeria",
                 "Quick Bites",
@@ -2584,7 +2584,7 @@
         },
         {
             "city": "Gilbert",
-            "cuisines": [
+            "establishments": [
                 "Casual Dining",
                 "Bakery",
                 "Café",
@@ -2611,7 +2611,7 @@
         },
         {
             "city": "Baton Rouge",
-            "cuisines": [
+            "establishments": [
                 "Casual Dining",
                 "Bakery",
                 "Quick Bites",
@@ -2638,7 +2638,7 @@
         },
         {
             "city": "Irving",
-            "cuisines": [
+            "establishments": [
                 "Casual Dining",
                 "Café",
                 "Bakery",
@@ -2670,7 +2670,7 @@
         },
         {
             "city": "Scottsdale",
-            "cuisines": [
+            "establishments": [
                 "Casual Dining",
                 "Pizzeria",
                 "Fine Dining",
@@ -2704,7 +2704,7 @@
         },
         {
             "city": "North Las Vegas",
-            "cuisines": [
+            "establishments": [
                 "Casual Dining",
                 "Quick Bites",
                 "Fast Casual",
@@ -2729,7 +2729,7 @@
         },
         {
             "city": "Fremont",
-            "cuisines": [
+            "establishments": [
                 "Casual Dining",
                 "Quick Bites",
                 "Café",
@@ -2757,7 +2757,7 @@
         },
         {
             "city": "Boise",
-            "cuisines": [
+            "establishments": [
                 "Bakery",
                 "Casual Dining",
                 "Pizzeria",
@@ -2790,7 +2790,35 @@
         },
         {
             "city": "Richmond",
-            "cuisines": [
+            "establishments": [
+                "Casual Dining",
+                "Deli",
+                "Quick Bites",
+                "Fast Casual",
+                "Dessert Parlour",
+                "Noodle Shop",
+                "Bakery",
+                "Fast Food",
+                "Café",
+                "Pizzeria",
+                "Diner",
+                "Bar",
+                "Taqueria",
+                "Sandwich Shop",
+                "Coffee Shop",
+                "Food Court",
+                "Pub",
+                "Juice Bar",
+                "Wine Bar",
+                "Brewery",
+                "Food Truck",
+                "Lounge",
+                "Club"
+            ]
+        },
+        {
+            "city": "San Bernardino",
+            "establishments": [
                 "Casual Dining",
                 "Deli",
                 "Quick Bites",
