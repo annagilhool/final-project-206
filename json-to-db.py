@@ -31,17 +31,27 @@ cur.execute("DROP TABLE IF EXISTS `Top 5 Restaurant Results by Location`")
 cur.execute("CREATE TABLE `Top 5 Restaurant Results by Location` (cities TEXT PRIMARY KEY, #1 TEXT, #2 TEXT, #3 TEXT, #4 TEXT, #5 TEXT, `Average Rating` INTEGER, `Average Price` TEXT)")
 
 
-# writing json restaurant data to database
+# writing json restaurant data to database for ratings 
 
 for data in json_rest_data['yelp_data']:
 
     sql_query = "INSERT INTO `Top 5 Restaurant Results by Location` (cities, #1, #2, #3, #4, #5, 'Average Rating`, `Average Price`) VALUES (?, ?, ?, ?, ?, ?, ?, ?)"
     data = data['city']
     results = data['results'] # dictionary 
-    top5 = results['Top 5']
-    avg_rating = results['Average Rating']
-    avg_price = results['Average Price']
+    top5 = results['Top 3']
+    ratings = results['Ratings']
+
+
+# writing json restaurant data to database for prices 
+
+
+for data in json_rest_data['yelp_data']:
+
+    sql_query = "INSERT INTO `Top 5 Restaurant Results by Location` (cities, #1, #2, #3, #4, #5, 'Average Rating`, `Average Price`) VALUES (?, ?, ?, ?, ?, ?, ?, ?)"
+    data = data['city']
+    results = data['results'] # dictionary 
+    top5 = results['Top 3']
+    prices = results['Prices']
 
 
     
-
