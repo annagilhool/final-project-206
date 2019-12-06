@@ -56,7 +56,7 @@ for i in city_list:
     names = []
     count = 0
     for rest in restaurants:
-        if count < 5:
+        if count < 3:
             top_rest.append(rest)
             names.append(rest['name'])
             count += 1
@@ -64,66 +64,73 @@ for i in city_list:
             break
     # print(top_rest)
 
-    data_dict['results']['Top 5'] = names
+    data_dict['results']['Top 3'] = names
 
-    #gathering top 5 results ratings
+    #gathering top 3 results ratings
     top_rest_ratings = []
     for rest in top_rest:
-        top_rest_ratings.append([rest['name'],rest['rating']])
+        top_rest_ratings.append(rest['rating'])
     # print(top_rest_ratings)
 
-    #average rating of top five results
-    ratings = []
-    for rest in top_rest_ratings:
-        ratings.append(rest[1])
-    average_rating = sum(ratings)/len(ratings)
+    data_dict['results']['Ratings'] = top_rest_ratings
+
+
+    #average rating of top 3 results
+    # ratings = []
+    # for rest in top_rest_ratings:
+    #     ratings.append(rest[1])
+    # average_rating = sum(ratings)/len(ratings)
     # print(average_rating)
 
-    data_dict['results']['Average Rating'] = average_rating
+    # data_dict['results']['Average Rating'] = average_rating
 
-    #gathering top 5 results prices
+    #gathering top 3 results prices
     top_rest_price = []
     for rest in top_rest:
         try:
-            top_rest_price.append([rest['name'],rest['price']])
+            top_rest_price.append(rest['price'])
         except:
             continue
     # print(top_rest_price)
 
     #converting price to int
+    prices = []
     for rest in top_rest_price:
-        if rest[1] == "$":
-            rest[1] = 1
-        elif rest[1] == "$$":
-            rest[1] = 2
-        elif rest[1] == "$$$":
-            rest[1] = 3
-        elif rest[1] == "$$$$":
-            rest[1] = 4
+        if rest == "$":
+            rest = 1
+        elif rest == "$$":
+            rest = 2
+        elif rest == "$$$":
+            rest = 3
+        elif rest == "$$$$":
+            rest = 4
+        prices.append(rest)
         
     # print(top_rest_price)
 
+    data_dict['results']['Prices'] = prices
+
     #averaging the price
-    prices = []
-    for rest in top_rest_price:
-        prices.append(rest[1])
-    average_price = sum(prices)/len(prices)
+    # prices = []
+    # for rest in top_rest_price:
+    #     prices.append(rest[1])
+    # average_price = sum(prices)/len(prices)
     # print(average_price)
 
-    final_price = average_price
+    # final_price = average_price
 
-    if average_price <= float(1):
-        final_price = 'Inexpensive'
-    elif average_price <= float(2):
-        final_price = "Moderate"
-    elif average_price <= float(3):
-        final_price = "Pricey"
-    elif average_price <= float(4):
-        final_price = "Ultra High-End"
+    # if average_price <= float(1):
+    #     final_price = 'Inexpensive'
+    # elif average_price <= float(2):
+    #     final_price = "Moderate"
+    # elif average_price <= float(3):
+    #     final_price = "Pricey"
+    # elif average_price <= float(4):
+    #     final_price = "Ultra High-End"
 
     # print(final_price)
 
-    data_dict['results']['Average Price'] = final_price
+    # data_dict['results']['Average Price'] = final_price
 
     #making dictionary
     yelp_data.append(data_dict)
