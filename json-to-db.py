@@ -75,7 +75,7 @@ json_estab_data = json.loads(zomato_estab_data) # now a dictionary
 
 # creating table for Establishments
 cur.execute("DROP TABLE IF EXISTS Establishments")
-cur.execute("CREATE TABLE Establishments (cities TEXT PRIMARY KEY, establishments varchar(max)")
+cur.execute("CREATE TABLE Establishments (cities TEXT PRIMARY KEY, establishments TEXT)")
 
 
 # writing json zomato estab data 
@@ -84,8 +84,9 @@ for item in json_estab_data['data']:
 
     sql_query = "INSERT INTO Establishments (cities, establishments) VALUES (?, ?)"
     city = item['city']
-    cuisines = item['establishments'] # list
-    values = (city, cuisines)
+    establishments = item['establishments'] # list
+    establishments = str(establishments)
+    values = (city, establishments)
     cur.execute(sql_query, values)
 conn.commit()
 
@@ -101,7 +102,7 @@ json_cuis_data = json.loads(zomato_cuis_data) # now a dictionary
 
 # creating table for Cuisines
 cur.execute("DROP TABLE IF EXISTS Cuisines")
-cur.execute("CREATE TABLE Cuisines (cities TEXT PRIMARY KEY, cuisines varchar(max)")
+cur.execute("CREATE TABLE Cuisines (cities TEXT PRIMARY KEY, cuisines TEXT)")
 
 # writing json zomato cuisine data 
 
@@ -110,6 +111,7 @@ for item in json_cuis_data['data']:
     sql_query = "INSERT INTO Cuisines (cities, cuisines) VALUES (?, ?)"
     city = item['city']
     cuisines = item['cuisines'] # list
+    cuisines = str(cuisines)
     values = (city, cuisines)
     cur.execute(sql_query, values)
 conn.commit()
