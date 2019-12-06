@@ -63,6 +63,55 @@ for data in json_rest_data['yelp_data']:
 conn.commit()
 
 
+# ESTABLISHMENTS
+
+# reading data from zomato establishments
+
+full_path = os.path.join(os.path.dirname(__file__), "zomato-establishments.json")
+f = open(full_path, encoding="utf8")
+zomato_estab_data = f.read()
+f.close()
+json_estab_data = json.loads(zomato_estab_data) # now a dictionary
+
+# creating table for Establishments
+cur.execute("DROP TABLE IF EXISTS Establishments")
+cur.execute("CREATE TABLE Establishments (cities TEXT PRIMARY KEY, establishments varchar(max)")
 
 
-    
+# writing json zomato estab data 
+
+for item in json_estab_data['data']:
+
+    sql_query = "INSERT INTO Establishments (cities, establishments) VALUES (?, ?)"
+    city = item['city']
+    cuisines = item['establishments'] # list
+    values = (city, cuisines)
+    cur.execute(sql_query, values)
+conn.commit()
+
+
+
+# reading data from zomato cuisines
+
+full_path = os.path.join(os.path.dirname(__file__), "zomato-cuisines.json")
+f = open(full_path, encoding="utf8")
+zomato_cuis_data = f.read()
+f.close()
+json_cuis_data = json.loads(zomato_cuis_data) # now a dictionary
+
+# creating table for Cuisines
+cur.execute("DROP TABLE IF EXISTS Cuisines")
+cur.execute("CREATE TABLE Cuisines (cities TEXT PRIMARY KEY, cuisines varchar(max)")
+
+# writing json zomato cuisine data 
+
+for item in json_cuis_data['data']:
+
+    sql_query = "INSERT INTO Cuisines (cities, cuisines) VALUES (?, ?)"
+    city = item['city']
+    cuisines = item['cuisines'] # list
+    values = (city, cuisines)
+    cur.execute(sql_query, values)
+conn.commit()
+
+
