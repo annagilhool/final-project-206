@@ -1,5 +1,6 @@
 import requests
 import json
+import time
 
 cuisines = "https://developers.zomato.com/api/v2.1/establishments?city_id={}"
 header = {"User-agent": "curl/7.43.0", "Accept": "application/json", "user_key": "ec8d07cd9f4ba5a10333320eb29ebf2d"}
@@ -22,16 +23,37 @@ print(zomato_data)
 
 #sorting data
 
-list_cuisines = []
-for item in zomato_data:
-    cuisines = item['results']['establishments']
-    c = []
-    for cuisine in cuisines:
-        c_type = cuisine['establishment']['name']
-        c.append(c_type)
-    list_cuisines.append(c)
+count = 0
 
-# print(list_cuisines)
+list_cuisines = []
+
+
+for item in zomato_data:
+    try:
+        cuisines = item['results']['establishments']
+        c = []
+        for cuisine in cuisines:
+            c_type = cuisine['establishment']['name']
+            c.append(c_type)
+        list_cuisines.append(c)
+        count += 1
+        if count % 10 == 0:
+            print('pausing for a bit...')
+            time.sleep(5)
+    except:
+        print("exception")
+        continue
+
+last_entry = zomato_data[-1]
+names = []
+l = last_entry['results']['establishments']
+for item in l:
+    name = item['establishment']['name']
+    names.append(name)
+list_cuisines.append(names)
+
+
+print(list_cuisines)
 
 # with open('list-cuisines.json', 'w', encoding='utf-8') as f:
 #     json.dump(list_cuisines, f, ensure_ascii=False, indent=2)
@@ -60,6 +82,8 @@ sorted_data['data'] = cuisines_by_city
 
 with open('zomato-establishments.json', 'w', encoding='utf-8') as f:
     json.dump(sorted_data, f, ensure_ascii=False, indent=4)
+
+
 
 
 
