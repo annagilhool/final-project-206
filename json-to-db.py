@@ -27,14 +27,14 @@ def write_yelp_rating_data(rest_data, cur, conn):
 
     # creating table for cities with top 3 restaurants and ratings
     cur.execute("DROP TABLE IF EXISTS `Restaurants and Ratings`")
-    cur.execute("CREATE TABLE `Restaurants and Ratings` (cities TEXT PRIMARY KEY, restaurants varchar(3), ratings varchar(3))")
+    cur.execute("CREATE TABLE `Restaurants and Ratings` (cities TEXT PRIMARY KEY, restaurants varchar(3), ratings varchar(3), avg_rating REAL)")
 
 
     # writing json restaurant data to database for ratings 
 
     for data in rest_data['yelp_data']:
 
-        sql_query = "INSERT INTO `Restaurants and Ratings` (cities, restaurants, ratings) VALUES (?, ?, ?)"
+        sql_query = "INSERT INTO `Restaurants and Ratings` (cities, restaurants, ratings, avg_rating) VALUES (?, ?, ?, ?)"
         city = data['city']
         results = data['results'] # dictionary 
         top3 = results['Top 3']
@@ -42,7 +42,7 @@ def write_yelp_rating_data(rest_data, cur, conn):
         ratings = results['Ratings']
         ratings = str(ratings)
 
-        values = (city, top3, ratings)
+        values = (city, top3, ratings, None)
         cur.execute(sql_query, values)
     conn.commit()
 
@@ -50,13 +50,13 @@ def write_yelp_rating_data(rest_data, cur, conn):
 def write_yelp_pricing_data(rest_data, cur, conn):
     # creating table for cities with top 3 restaurants and prices 
     cur.execute("DROP TABLE IF EXISTS `Restaurants and Pricing`")
-    cur.execute("CREATE TABLE `Restaurants and Pricing` (cities TEXT PRIMARY KEY, restaurants varchar(3), pricing varchar(3))")
+    cur.execute("CREATE TABLE `Restaurants and Pricing` (cities TEXT PRIMARY KEY, restaurants varchar(3), pricing varchar(3), avg_price TEXT)")
 
     # writing json restaurant data to database for prices 
 
     for data in rest_data['yelp_data']:
 
-        sql_query = "INSERT INTO `Restaurants and Pricing` (cities, restaurants, pricing) VALUES (?, ?, ?)"
+        sql_query = "INSERT INTO `Restaurants and Pricing` (cities, restaurants, pricing, avg_price) VALUES (?, ?, ?, ?)"
         city = data['city']
         results = data['results'] # dictionary 
         top3 = results['Top 3']
@@ -64,7 +64,7 @@ def write_yelp_pricing_data(rest_data, cur, conn):
         prices = results['Prices']
         prices = str(prices)
 
-        values = (city, top3, prices)
+        values = (city, top3, prices, None)
         cur.execute(sql_query, values)
     conn.commit()
 
