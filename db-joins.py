@@ -8,7 +8,11 @@ def get_database(db_name):
     return cur, conn
 
 def db_join(cur, conn):
-    cur.execute('SELECT cities, restaurants, ratings, avg_rating FROM `Restaurants and Ratings` INNER JOIN `Restaurants and Pricing` ON  `Restaurants and Ratings`.cities = `Restaurants and Pricing`.cities')
+    cur.execute('SELECT Establishments.cities, `Establishment Count`, `Cuisine Count` FROM Establishments INNER JOIN Cuisines WHERE Establishments.cities = Cuisines.cities')
+    cusine_estab_counts = cur.fetchall()
+    print(cusine_estab_counts)
+    conn.commit()
 
 
 cur, conn = get_database('final.db')
+db_join(cur, conn)
