@@ -86,18 +86,18 @@ def write_zomato_estab_data(estab_data, cur, conn):
 
     # creating table for Establishments
     cur.execute("DROP TABLE IF EXISTS Establishments")
-    cur.execute("CREATE TABLE Establishments (cities TEXT PRIMARY KEY, establishments TEXT)")
+    cur.execute("CREATE TABLE Establishments (cities TEXT PRIMARY KEY, establishments TEXT, `Establishment Count` INTEGER)")
 
 
     # writing json zomato estab data 
 
     for item in estab_data['data']:
 
-        sql_query = "INSERT INTO Establishments (cities, establishments) VALUES (?, ?)"
+        sql_query = "INSERT INTO Establishments (cities, establishments, `Establishment Count`) VALUES (?, ?, ?)"
         city = item['city']
         establishments = item['establishments'] # list
         establishments = str(establishments)
-        values = (city, establishments)
+        values = (city, establishments, None)
         cur.execute(sql_query, values)
     conn.commit()
 
@@ -116,17 +116,17 @@ def get_zomato_cuisine_data(filename):
 def write_zomato_cuisine_data(cuis_data, cur, conn):
     # creating table for Cuisines
     cur.execute("DROP TABLE IF EXISTS Cuisines")
-    cur.execute("CREATE TABLE Cuisines (cities TEXT PRIMARY KEY, cuisines TEXT)")
+    cur.execute("CREATE TABLE Cuisines (cities TEXT PRIMARY KEY, cuisines TEXT, `Cuisine Count` INTEGER)")
 
     # writing json zomato cuisine data 
 
     for item in cuis_data['data']:
 
-        sql_query = "INSERT INTO Cuisines (cities, cuisines) VALUES (?, ?)"
+        sql_query = "INSERT INTO Cuisines (cities, cuisines, `Cuisine Count`) VALUES (?, ?, ?)"
         city = item['city']
         cuisines = item['cuisines'] # list
         cuisines = str(cuisines)
-        values = (city, cuisines)
+        values = (city, cuisines, None)
         cur.execute(sql_query, values)
     conn.commit()
 
