@@ -12,7 +12,7 @@ def get_database(db_name):
 def get_cuisine_count(conn, cur):
     cur.execute('SELECT cities, cuisines FROM Cuisines')
     li = cur.fetchall()
-    list_of_tups = []
+    list_of_tups_cus = []
     # print(li)
 
     for item in li:
@@ -29,39 +29,57 @@ def get_cuisine_count(conn, cur):
             l.append(c)
         cuisine_count = len(l)
         tup = (city, cuisine_count)
-        list_of_tups.append(tup)
+        list_of_tups_cus.append(tup)
 
-
-
-    # li_cuisines = []
-    # for entry in list_of_cuisines:
-    #     entry = entry[0]
-    #     entry = entry.strip("[]")
-    #     entry = list(entry.split(","))
-    #     cuisines = []
-    #     for c in entry:
-    #         # print(c)
-    #         c = c.replace("'", "")
-    #         c = c.strip()
-    #         cuisines.append(c)
-    #     li_cuisines.append(cuisines)
-    # # print(li_cuisines)
-    # cur.execute('SELECT cities FROM Cuisines')
-    # list_of_cities = cur.fetchall()
-    # # print(list_of_cities)
-    # li_cities = []
-    # for entry in list_of_cities:
-    #     entry = entry[0]
-    #     li_cities.append(entry)
-    # # print(li_cities)
-
-
-
-    for item in list_of_tups:
+    for item in list_of_tups_cus:
         count = item[1]
         city = item[0]
         cur.execute("UPDATE Cuisines SET `Cuisine Count` = ? WHERE cities = ?", (count, city))
     conn.commit()
 
+    return list_of_tups_cus
+
+def get_establishment_count(conn, cur):
+    cur.execute('SELECT cities, establishments FROM Establishments')
+    li = cur.fetchall()
+    list_of_tups = []
+    # print(li)
+
+    for item in li:
+        city = item[0]
+
+        estab = item[1]
+        estab = estab.strip("[]")
+        estab = list(estab.split(","))
+        l = []
+        for e in estab:
+            # print(e)
+            e = e.replace("'", "")
+            e = e.strip()
+            l.append(e)
+        estab_count = len(l)
+        tup = (city, estab_count)
+        list_of_tups.append(tup)
+
+    for item in list_of_tups:
+        count = item[1]
+        city = item[0]
+        cur.execute("UPDATE Establishments SET `Establishment Count` = ? WHERE cities = ?", (count, city))
+    conn.commit()
+
+    return list_of_tups
+
+def write_to_txt_file(filename, calc_1, calc_2):
+    full_path = os.path.join(os.path.dirname(__file__), filename)
+    f = open(full_path, "a")
+    f.write(str(calc_1) + "\n")
+    f.write(str(calc_2) + "\n")
+    f.close()
+
+
+
 cur, conn = get_database('final.db')
-get_cuisine_count(conn, cur)
+calc1 = get_cuisine_count(conn, cur)
+calc2 = get_establishment_count(conn, cur)
+write_to_txt_file("calculations.txt", calc1, calc2)
+
