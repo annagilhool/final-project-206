@@ -31,7 +31,7 @@ def chart_1(tup_list):
 
     fig, ax = plt.subplots()
     plt.xticks(rotation=90)
-    ax.bar(x - width/2, estab_count, width, label='Establishemnt Count')
+    ax.bar(x - width/2, estab_count, width, label='Establishment Count')
     ax.bar(x + width/2, cusine_count, width, label='Cuisine Count')
 
     # Add some text for labels, title and custom x-axis tick labels, etc.
@@ -92,6 +92,7 @@ def chart_3(tuplelist):
     plt.xticks(rotation=90)
     ax.bar(x - width/2, values, width, color='#db91b2', align='center')
     ax.set(title='Average Restaurant Ratings by City', xlabel='Cities', ylabel='Average Rating', xticklabels=labels, xticks=(x - width / 2))
+    plt.gcf().subplots_adjust(bottom=0.45)
 
     fig.savefig('average-rating.png')
 
