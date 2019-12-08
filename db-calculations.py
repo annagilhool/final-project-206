@@ -165,11 +165,13 @@ def write_to_db(cur, conn, ratings, prices):
     conn.commit()
 
 
-def write_to_txt_file(filename, calc_1, calc_2):
+def write_to_txt_file(filename, calc_1, calc_2, calc_3, calc_4):
     full_path = os.path.join(os.path.dirname(__file__), filename)
     f = open(full_path, "a")
     f.write(str(calc_1) + "\n")
     f.write(str(calc_2) + "\n")
+    f.write(str(calc_3) + "\n")
+    f.write(str(calc_4) + "\n")
     f.close()
 
 
@@ -178,12 +180,14 @@ def main():
     cur, conn = get_database('final.db')
     calc1 = get_cuisine_count(conn, cur)
     calc2 = get_establishment_count(conn, cur)
+    calc3 = get_avg_rating(conn, cur)
+    calc4 = get_avg_price(conn, cur)
 
     cities_and_ratings = get_avg_rating(conn, cur)
     cities_and_prices = get_avg_price(conn, cur)
     write_to_db(cur, conn, cities_and_ratings, cities_and_prices)
     conn.close()
-    write_to_txt_file("calculations.txt", calc1, calc2)
+    write_to_txt_file("calculations.txt", calc1, calc2, calc3, calc4)
 
 
 if __name__ == "__main__":
