@@ -9,11 +9,14 @@ def get_database(db_name):
     return cur, conn
 
 
+# uses SQL to gather list of cities and cuisines, then calculates the number of cuisines per city
+# returns list of tuples (city, cuisine count)
+# adds third column to Cuisines table with cuisine count
+
 def get_cuisine_count(conn, cur):
     cur.execute('SELECT cities, cuisines FROM Cuisines')
     li = cur.fetchall()
     list_of_tups_cus = []
-    # print(li)
 
     for item in li:
         city = item[0]
@@ -23,7 +26,6 @@ def get_cuisine_count(conn, cur):
         cuisines = list(cuisines.split(","))
         l = []
         for c in cuisines:
-            # print(c)
             c = c.replace("'", "")
             c = c.strip()
             l.append(c)
@@ -39,11 +41,14 @@ def get_cuisine_count(conn, cur):
 
     return list_of_tups_cus
 
+# uses SQL to gather list of cities and establishments, then calculates the number of establishments per city
+# returns list of tuples (city, establishment count)
+# adds third column to Establishments table with establishment count
+
 def get_establishment_count(conn, cur):
     cur.execute('SELECT cities, establishments FROM Establishments')
     li = cur.fetchall()
     list_of_tups = []
-    # print(li)
 
     for item in li:
         city = item[0]
@@ -53,7 +58,6 @@ def get_establishment_count(conn, cur):
         estab = list(estab.split(","))
         l = []
         for e in estab:
-            # print(e)
             e = e.replace("'", "")
             e = e.strip()
             l.append(e)
@@ -69,6 +73,10 @@ def get_establishment_count(conn, cur):
 
     return list_of_tups
 
+
+# uses SQL to gather list of cities and ratings, then calculates the average rating per city
+# returns list of tuples (city, average rating)
+# adds fourth column to Restaurants and Ratings table with average rating
 
 def get_avg_rating(conn, cur):
     cur.execute('SELECT cities, ratings FROM `Restaurants and Ratings`')
@@ -98,6 +106,10 @@ def get_avg_rating(conn, cur):
 
     return list_of_tups
 
+
+# uses SQL to gather list of cities and prices, then calculates the average pricing per city
+# returns list of tuples (city, average pricing)
+# adds fourth column to Restaurants and Pricing table with average pricing
 
 def get_avg_price(conn, cur):
     cur.execute('SELECT cities, pricing FROM `Restaurants and Pricing`')
@@ -133,6 +145,7 @@ def get_avg_price(conn, cur):
         list_of_tups.append(tup)
 
     return list_of_tups
+
 
 def write_to_db(cur, conn, ratings, prices):
 
