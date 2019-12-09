@@ -24,14 +24,14 @@
             "city": "Los Angeles",
             "results": {
                 "Top 3": [
+                    "Republique",
                     "Running Goose",
-                    "Howlin' Ray's",
-                    "République"
+                    "Howlin' Ray's"
                 ],
                 "Ratings": [
+                    4.0,
                     4.5,
-                    4.5,
-                    4.0
+                    4.5
                 ],
                 "Prices": [
                     2,
@@ -104,13 +104,13 @@
             "city": "Phoenix",
             "results": {
                 "Top 3": [
-                    "The Arrogant Butcher",
                     "Cocina Madrigal",
+                    "The Arrogant Butcher",
                     "Little Miss BBQ"
                 ],
                 "Ratings": [
-                    4.0,
                     5.0,
+                    4.0,
                     5.0
                 ],
                 "Prices": [
@@ -144,9 +144,9 @@
             "city": "San Diego",
             "results": {
                 "Top 3": [
-                    "Pachamama",
                     "Werewolf",
-                    "Din Tai Fung"
+                    "Crushed",
+                    "Pachamama"
                 ],
                 "Ratings": [
                     4.5,
@@ -185,13 +185,13 @@
             "results": {
                 "Top 3": [
                     "Firehouse No.1 Gastropub",
-                    "Hapa Musubi",
-                    "LUNA Mexican Kitchen - The Alameda"
+                    "The Breakfast Club",
+                    "Hapa Musubi"
                 ],
                 "Ratings": [
                     4.0,
-                    4.5,
-                    4.0
+                    4.0,
+                    4.5
                 ],
                 "Prices": [
                     2,
@@ -263,17 +263,17 @@
             "results": {
                 "Top 3": [
                     "Fog Harbor Fish House",
-                    "The House",
-                    "Marufuku Ramen SF"
+                    "Zazie",
+                    "Kitchen Story"
                 ],
                 "Ratings": [
                     4.0,
-                    4.5,
-                    4.5
+                    4.0,
+                    4.0
                 ],
                 "Prices": [
                     2,
-                    3,
+                    2,
                     2
                 ]
             }
@@ -313,6 +313,7 @@
                 ],
                 "Prices": [
                     2,
+                    2,
                     2
                 ]
             }
@@ -343,7 +344,7 @@
                 "Top 3": [
                     "Smith & Co",
                     "Selden Standard",
-                    "Detroit Shipping Company"
+                    "Grey Ghost Detroit"
                 ],
                 "Ratings": [
                     4.5,
@@ -353,7 +354,7 @@
                 "Prices": [
                     2,
                     2,
-                    2
+                    3
                 ]
             }
         },
@@ -363,17 +364,17 @@
                 "Top 3": [
                     "El Taquito",
                     "L & J Cafe",
-                    "Noodles & Dumplings"
+                    "Gom Ramen"
                 ],
                 "Ratings": [
                     5.0,
                     4.5,
-                    4.0
+                    4.5
                 ],
                 "Prices": [
                     1,
                     2,
-                    2
+                    1
                 ]
             }
         },
@@ -402,17 +403,17 @@
             "results": {
                 "Top 3": [
                     "The Pink Door",
-                    "Pike Place Chowder",
-                    "Kedai Makan"
+                    "Biscuit Bitch",
+                    "Tilikum Place Cafe"
                 ],
                 "Ratings": [
                     4.5,
-                    4.5,
-                    4.5
+                    4.0,
+                    4.0
                 ],
                 "Prices": [
                     2,
-                    2,
+                    1,
                     2
                 ]
             }
@@ -421,8 +422,8 @@
             "city": "Denver",
             "results": {
                 "Top 3": [
-                    "Work & Class",
                     "Denver Biscuit Co.",
+                    "Work & Class",
                     "Acorn - Denver"
                 ],
                 "Ratings": [
@@ -482,7 +483,7 @@
                 "Top 3": [
                     "The Stillery",
                     "Hattie B's Chicken - Midtown",
-                    "The Farm House"
+                    "Puckett's Grocery & Restaurant"
                 ],
                 "Ratings": [
                     4.5,
@@ -540,8 +541,8 @@
             "city": "Louisville",
             "results": {
                 "Top 3": [
-                    "The Eagle",
                     "Hammerheads",
+                    "The Eagle",
                     "Harvest Restaurant"
                 ],
                 "Ratings": [
@@ -562,12 +563,12 @@
                 "Top 3": [
                     "Screen Door",
                     "Tasty n Alder",
-                    "Lechon"
+                    "Mother’s Bistro & Bar"
                 ],
                 "Ratings": [
                     4.5,
                     4.5,
-                    4.5
+                    4.0
                 ],
                 "Prices": [
                     2,
@@ -582,12 +583,12 @@
                 "Top 3": [
                     "Yardbird Southern Table & Bar",
                     "Gordon Ramsay Hell's Kitchen",
-                    "Therapy"
+                    "Hash House A Go Go"
                 ],
                 "Ratings": [
                     4.5,
                     4.5,
-                    4.5
+                    4.0
                 ],
                 "Prices": [
                     2,
@@ -600,13 +601,13 @@
             "city": "Milwaukee",
             "results": {
                 "Top 3": [
-                    "Blue's Egg - Milwaukee",
                     "Triciclo Peru",
+                    "Blue's Egg - Milwaukee",
                     "Swingin' Door Exchange"
                 ],
                 "Ratings": [
-                    4.5,
                     5.0,
+                    4.5,
                     4.5
                 ],
                 "Prices": [
@@ -619,9 +620,9 @@
             "city": "Albuquerque",
             "results": {
                 "Top 3": [
-                    "The Jealous Fork",
                     "Cocina Azul",
-                    "Fork & Fig"
+                    "The Jealous Fork",
+                    "The Farmacy"
                 ],
                 "Ratings": [
                     4.5,
@@ -641,7 +642,7 @@
                 "Top 3": [
                     "The Parish",
                     "Tito & Pep",
-                    "Noodleholics"
+                    "Prep & Pastry"
                 ],
                 "Ratings": [
                     4.5,
@@ -659,8 +660,8 @@
             "city": "Fresno",
             "results": {
                 "Top 3": [
-                    "Heirloom",
                     "The Annex Kitchen",
+                    "Heirloom",
                     "Cowboy Chicken"
                 ],
                 "Ratings": [
@@ -669,8 +670,8 @@
                     3.5
                 ],
                 "Prices": [
-                    2,
                     3,
+                    2,
                     2
                 ]
             }
@@ -679,9 +680,9 @@
             "city": "Sacramento",
             "results": {
                 "Top 3": [
-                    "Ramen House Ryujin",
+                    "Bacon & Butter",
                     "Fixins Soul Kitchen",
-                    "The Other Side"
+                    "Beast and Bounty"
                 ],
                 "Ratings": [
                     4.5,
@@ -689,7 +690,7 @@
                     4.0
                 ],
                 "Prices": [
-                    1,
+                    2,
                     2,
                     2
                 ]
@@ -699,14 +700,14 @@
             "city": "Long Beach",
             "results": {
                 "Top 3": [
-                    "Cluck & Blaze",
                     "The Attic",
-                    "Bebot - Filipino Soul Food"
+                    "The Breakfast Bar",
+                    "Cluck & Blaze"
                 ],
                 "Ratings": [
-                    4.5,
                     4.0,
-                    4.0
+                    4.0,
+                    4.5
                 ],
                 "Prices": [
                     2,
@@ -740,15 +741,16 @@
             "results": {
                 "Top 3": [
                     "Tucked Away Craft Kitchen & Bar",
-                    "Bobby Q - Mesa",
-                    "Cap'n Ron's Fish and  Chips"
+                    "Worth Takeaway",
+                    "Bobby Q - Mesa"
                 ],
                 "Ratings": [
                     5.0,
-                    4.5,
-                    5.0
+                    5.0,
+                    4.5
                 ],
                 "Prices": [
+                    2,
                     2,
                     2
                 ]
@@ -799,17 +801,17 @@
             "results": {
                 "Top 3": [
                     "Lazy Dog Restaurant & Bar",
-                    "The Rabbit Hole",
-                    "Shuga's"
+                    "Mountain Shadows Restaurant",
+                    "The Rabbit Hole"
                 ],
                 "Ratings": [
                     4.0,
-                    4.0,
-                    4.5
+                    4.5,
+                    4.0
                 ],
                 "Prices": [
                     2,
-                    2,
+                    1,
                     2
                 ]
             }
@@ -878,18 +880,18 @@
             "city": "Oakland",
             "results": {
                 "Top 3": [
-                    "Marica",
                     "Brenda's Oakland",
-                    "Shakewell"
+                    "MAMA Oakland",
+                    "Marica"
                 ],
                 "Ratings": [
-                    4.5,
                     4.0,
-                    4.0
+                    4.0,
+                    4.5
                 ],
                 "Prices": [
                     2,
-                    2,
+                    3,
                     2
                 ]
             }
@@ -999,8 +1001,8 @@
             "results": {
                 "Top 3": [
                     "Café Amelie",
-                    "Galliano Restaurant",
-                    "Cochon Butcher"
+                    "Cochon Butcher",
+                    "Galliano Restaurant"
                 ],
                 "Ratings": [
                     4.5,
@@ -1018,14 +1020,14 @@
             "city": "Bakersfield",
             "results": {
                 "Top 3": [
+                    "Dot x Ott",
                     "PorkChop & Bubba's BBQ",
-                    "Locale Farm to Table Eatery",
-                    "Dot x Ott"
+                    "The 18hundred"
                 ],
                 "Ratings": [
-                    5.0,
                     4.5,
-                    4.5
+                    5.0,
+                    4.0
                 ],
                 "Prices": [
                     2,
@@ -1079,18 +1081,18 @@
             "results": {
                 "Top 3": [
                     "Gillerson's Grubbery",
-                    "Two Brothers Roundhouse",
-                    "Pie Boss"
+                    "Pie Boss",
+                    "Two Brothers Roundhouse"
                 ],
                 "Ratings": [
                     4.0,
-                    3.5,
-                    4.5
+                    4.5,
+                    3.5
                 ],
                 "Prices": [
                     2,
-                    2,
-                    1
+                    1,
+                    2
                 ]
             }
         },
@@ -1100,15 +1102,14 @@
                 "Top 3": [
                     "The Blind Rabbit",
                     "Anaheim Packing District",
-                    "Reunion Kitchen + Drink"
+                    "TACOS LOS CHOLOS"
                 ],
                 "Ratings": [
                     4.5,
                     4.5,
-                    4.0
+                    5.0
                 ],
                 "Prices": [
-                    2,
                     2,
                     2
                 ]
@@ -1120,14 +1121,15 @@
                 "Top 3": [
                     "Benchmark",
                     "Playground",
-                    "La Súper Birria"
+                    "Crave Restaurant"
                 ],
                 "Ratings": [
                     4.5,
                     4.5,
-                    4.5
+                    4.0
                 ],
                 "Prices": [
+                    2,
                     2,
                     2
                 ]
@@ -1256,14 +1258,14 @@
             "city": "Stockton",
             "results": {
                 "Top 3": [
-                    "Fat City Brew & Bbq",
-                    "Nash + Tender",
-                    "The Kitchen at  StoneBrier"
+                    "Cast Iron Trading",
+                    "The Black Rabbit",
+                    "Fat City Brew & Bbq"
                 ],
                 "Ratings": [
                     4.5,
-                    4.0,
-                    4.0
+                    4.5,
+                    4.5
                 ],
                 "Prices": [
                     2,
@@ -1277,7 +1279,7 @@
                 "Top 3": [
                     "The Eagle",
                     "Delwood",
-                    "Boomtown Biscuits & Whiskey"
+                    "Maplewood Kitchen and Bar"
                 ],
                 "Ratings": [
                     4.5,
@@ -1337,7 +1339,7 @@
                 "Top 3": [
                     "Dame's Chicken & Waffles",
                     "913 Whiskey Bar & Southern Kitchen",
-                    "Blue Denim Restaurant"
+                    "Freeman's Grub & Pub"
                 ],
                 "Ratings": [
                     4.5,
@@ -1377,17 +1379,16 @@
                 "Top 3": [
                     "CraftWay Kitchen",
                     "Rolls by Chubby Cattle",
-                    "Wu Wei Din Chinese Cuisine"
+                    "SizzleIt"
                 ],
                 "Ratings": [
                     5.0,
                     4.5,
-                    4.5
+                    5.0
                 ],
                 "Prices": [
                     2,
-                    2,
-                    1
+                    2
                 ]
             }
         },
@@ -1395,13 +1396,13 @@
             "city": "Henderson",
             "results": {
                 "Top 3": [
-                    "8 Kitchen",
                     "Hashbrown",
-                    "Tasty Broth Pho Grill"
+                    "Served",
+                    "8 Kitchen"
                 ],
                 "Ratings": [
-                    4.5,
                     4.0,
+                    4.5,
                     4.5
                 ],
                 "Prices": [
@@ -1455,8 +1456,8 @@
             "results": {
                 "Top 3": [
                     "DOMODOMO Jersey City",
-                    "Hooked JC",
-                    "Cellar 335"
+                    "Cellar 335",
+                    "Hooked JC"
                 ],
                 "Ratings": [
                     4.0,
@@ -1474,18 +1475,17 @@
             "results": {
                 "Top 3": [
                     "The Kebab Shop",
-                    "Tacos El Gordo",
-                    "Baja Lounge"
+                    "Ceviche Craft",
+                    "The Protein Plate"
                 ],
                 "Ratings": [
                     4.0,
-                    4.5,
-                    4.5
+                    5.0,
+                    4.0
                 ],
                 "Prices": [
                     2,
-                    1,
-                    2
+                    1
                 ]
             }
         },
@@ -1514,12 +1514,12 @@
                 "Top 3": [
                     "Pig Floyd's Urban Barbakoa",
                     "Bar Harbor Seafood",
-                    "Hungry Pants"
+                    "The Stubborn Mule"
                 ],
                 "Ratings": [
                     4.5,
-                    4.0,
-                    5.0
+                    4.5,
+                    4.0
                 ],
                 "Prices": [
                     2,
@@ -1553,8 +1553,8 @@
             "results": {
                 "Top 3": [
                     "The Hidden House",
-                    "The Brickyard Downtown",
-                    "Mr Brews Taphouse"
+                    "Hash Kitchen",
+                    "The Brickyard Downtown"
                 ],
                 "Ratings": [
                     4.5,
@@ -1593,16 +1593,15 @@
             "results": {
                 "Top 3": [
                     "Blanca",
-                    "My Mama's Kitchen",
-                    "Nouvelle Restaurant"
+                    "350 Grace",
+                    "My Mama's Kitchen"
                 ],
                 "Ratings": [
                     4.5,
-                    4.5,
+                    5.0,
                     4.5
                 ],
                 "Prices": [
-                    2,
                     2
                 ]
             }
@@ -1671,17 +1670,17 @@
             "results": {
                 "Top 3": [
                     "Everyday Eatery",
-                    "Noodology",
-                    "Fukada"
+                    "Fogo de Chão Brazilian Steakhouse",
+                    "North Italia"
                 ],
                 "Ratings": [
                     4.5,
-                    4.5,
-                    4.0
+                    4.0,
+                    4.5
                 ],
                 "Prices": [
                     2,
-                    2,
+                    3,
                     2
                 ]
             }
@@ -1691,13 +1690,13 @@
             "results": {
                 "Top 3": [
                     "Hops Burger Bar",
-                    "Sweet Potatoes",
-                    "Viva Chicken"
+                    "Viva Chicken",
+                    "Sweet Potatoes"
                 ],
                 "Ratings": [
                     4.5,
-                    4.5,
-                    5.0
+                    5.0,
+                    4.5
                 ],
                 "Prices": [
                     2,
@@ -1711,17 +1710,17 @@
             "results": {
                 "Top 3": [
                     "眞 Jin Cook - Authentic Korean Soul Food",
-                    "Din Tai Fung",
-                    "ROCKBIRD"
+                    "Brick & Flour",
+                    "Din Tai Fung"
                 ],
                 "Ratings": [
                     4.5,
                     4.0,
-                    4.5
+                    4.0
                 ],
                 "Prices": [
                     2,
-                    2,
+                    1,
                     2
                 ]
             }
@@ -1769,17 +1768,16 @@
             "city": "Reno",
             "results": {
                 "Top 3": [
-                    "The Depot Craft Brewery Distillery",
-                    "Naan & Kabab",
-                    "Sierra St Kitchen & Cocktails"
+                    "Peg's Glorified Ham N Eggs",
+                    "Pine State Biscuits Reno",
+                    "Shanghai Bistro"
                 ],
                 "Ratings": [
-                    4.0,
-                    4.0,
+                    4.5,
+                    4.5,
                     4.5
                 ],
                 "Prices": [
-                    2,
                     2,
                     2
                 ]
@@ -1810,18 +1808,18 @@
             "results": {
                 "Top 3": [
                     "Not Your Typical Deli",
-                    "Culinary Dropout",
-                    "Clay Dawgs"
+                    "The Crowned Egg",
+                    "Culinary Dropout"
                 ],
                 "Ratings": [
                     5.0,
-                    4.0,
-                    4.5
+                    4.5,
+                    4.0
                 ],
                 "Prices": [
                     2,
                     2,
-                    1
+                    2
                 ]
             }
         },
@@ -1869,14 +1867,14 @@
             "city": "Scottsdale",
             "results": {
                 "Top 3": [
-                    "Grassroots Kitchen & Tap",
+                    "Vic & Ola's",
                     "Sophia's Kitchen",
-                    "Vic & Ola's"
+                    "Hash Kitchen"
                 ],
                 "Ratings": [
+                    4.0,
                     4.5,
-                    4.5,
-                    4.0
+                    4.5
                 ],
                 "Prices": [
                     2,
@@ -1888,19 +1886,19 @@
             "city": "North Las Vegas",
             "results": {
                 "Top 3": [
-                    "Tokyo Cafe",
                     "Texas Roadhouse",
-                    "Chicago Style Taco Shop"
+                    "Tokyo Cafe",
+                    "SNS Diner"
                 ],
                 "Ratings": [
-                    4.5,
                     4.0,
+                    4.5,
                     4.5
                 ],
                 "Prices": [
-                    1,
                     2,
-                    1
+                    1,
+                    2
                 ]
             }
         },
@@ -1908,19 +1906,19 @@
             "city": "Fremont",
             "results": {
                 "Top 3": [
+                    "Ambrose Butchery",
                     "Little by Little",
-                    "Layang Layang Express",
-                    "Mingle's Mango"
+                    "Federicos Grill"
                 ],
                 "Ratings": [
-                    4.0,
                     4.5,
+                    4.0,
                     4.0
                 ],
                 "Prices": [
                     2,
                     2,
-                    2
+                    3
                 ]
             }
         },
@@ -1929,18 +1927,18 @@
             "results": {
                 "Top 3": [
                     "Fork",
-                    "Bittercreek Alehouse",
-                    "Trillium"
+                    "Trillium",
+                    "Petite 4"
                 ],
                 "Ratings": [
                     4.0,
                     4.5,
-                    4.5
+                    5.0
                 ],
                 "Prices": [
                     2,
                     2,
-                    2
+                    3
                 ]
             }
         },
@@ -1969,18 +1967,18 @@
             "results": {
                 "Top 3": [
                     "Ramen Jo",
-                    "The Cutting Board Restaurant & Bar",
-                    "The Red Fox"
+                    "Bleu Pitt Cafe",
+                    "The Cutting Board Restaurant & Bar"
                 ],
                 "Ratings": [
                     4.5,
-                    4.0,
-                    4.5
+                    4.5,
+                    4.0
                 ],
                 "Prices": [
                     2,
-                    2,
-                    1
+                    1,
+                    2
                 ]
             }
         }

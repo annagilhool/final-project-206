@@ -53,7 +53,7 @@ for item in l:
 list_cuisines.append(names)
 
 
-print(list_cuisines)
+# print(list_cuisines)
 
 # with open('list-cuisines.json', 'w', encoding='utf-8') as f:
 #     json.dump(list_cuisines, f, ensure_ascii=False, indent=2)

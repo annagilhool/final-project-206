@@ -136,7 +136,7 @@ for i in city_list:
     yelp_data.append(data_dict)
 
 dict['yelp_data'] = yelp_data
-print(dict)
+# print(dict)
 
 
 # writing to json file
