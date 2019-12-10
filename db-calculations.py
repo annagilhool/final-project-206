@@ -92,7 +92,6 @@ def get_avg_rating(conn, cur):
 
         total = 0
         for r in ratings:
-            # print(c)
             r = r.replace("'", "")
             r = r.strip()
             r_int = float(r)

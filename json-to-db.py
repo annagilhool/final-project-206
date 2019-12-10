@@ -1,7 +1,6 @@
 import sqlite3
 import os
 import json
-# import time
 
 
 def set_up_database(filename):
@@ -26,32 +25,16 @@ def get_yelp_restaurant_data(filename):
 
 def write_yelp_rating_data(rest_data, cur, conn):
 
-    # creating table for cities with top 3 restaurants and ratings
-    
-    # full_path = os.path.join(os.path.dirname(__file__), 'final.db')
-    # ya = os.path.exists(full_path)
-    # print(ya)
-
-    # if os.path.exists(full_path): # data exists in db
-
-    # cur.execute("SELECT cities FROM `Restaurants and Ratings`")
-    # stuff = cur.fetchall()
-    # c = len(stuff)
-
-    # if c == 100
     try:
         cur.execute("SELECT cities FROM `Restaurants and Ratings` ORDER BY rowid ASC")
         cities = cur.fetchall()
-        # print(cities)
 
         city = cities[-1]
         last = city[0]
-        # print(last)
         run = False
         count = 0
         for data in rest_data['yelp_data']:
 
-            # print(data['city'])
             if data['city'] == last:
                 run = True
                 continue
@@ -73,8 +56,7 @@ def write_yelp_rating_data(rest_data, cur, conn):
         conn.commit()
 
         print("Ratings: Added 20 items after " + last)
-        # print("Pausing for a bit...")
-        # time.sleep(5)
+    
 
     except: # empty db, put in first 20
         cur.execute("DROP TABLE IF EXISTS `Restaurants and Ratings`")
@@ -98,8 +80,7 @@ def write_yelp_rating_data(rest_data, cur, conn):
                 cur.execute(sql_query, values)
         conn.commit()
         print("Ratings: Added first 20 items to db")
-        # print("Pausing for a bit...")
-        # time.sleep(5)
+   
 
     
 
@@ -110,16 +91,13 @@ def write_yelp_pricing_data(rest_data, cur, conn):
     try:
         cur.execute("SELECT cities FROM `Restaurants and Pricing` ORDER BY rowid ASC")
         cities = cur.fetchall()
-        # print(cities)
 
         city = cities[-1]
         last = city[0]
-        # print(last)
         run = False
         count = 0
         for data in rest_data['yelp_data']:
 
-            # print(data['city'])
             if data['city'] == last:
                 run = True
                 continue
@@ -141,8 +119,7 @@ def write_yelp_pricing_data(rest_data, cur, conn):
         conn.commit()
 
         print("Pricing: Added 20 items after " + last)
-        # print("Pausing for a bit...")
-        # time.sleep(5)
+    
 
     except: # empty db, put in first 20
         cur.execute("DROP TABLE IF EXISTS `Restaurants and Pricing`")
@@ -185,32 +162,13 @@ def get_zomato_estab_data(filename):
 
 def write_zomato_estab_data(estab_data, cur, conn):
 
-    # # creating table for Establishments
-    # cur.execute("DROP TABLE IF EXISTS Establishments")
-    # cur.execute("CREATE TABLE Establishments (cities TEXT PRIMARY KEY, establishments TEXT, `Establishment Count` INTEGER)")
-
-
-    # # writing json zomato estab data 
-
-    # for item in estab_data['data']:
-
-    #     sql_query = "INSERT INTO Establishments (cities, establishments, `Establishment Count`) VALUES (?, ?, ?)"
-    #     city = item['city']
-    #     establishments = item['establishments'] # list
-    #     establishments = str(establishments)
-    #     values = (city, establishments, None)
-    #     cur.execute(sql_query, values)
-    # conn.commit()
-
     try:
 
         cur.execute("SELECT cities FROM Establishments ORDER BY rowid ASC")
         cities = cur.fetchall()
-        # print(cities)
 
         city = cities[-1]
         last = city[0]
-        # print(last)
         run = False
         count = 0
 
@@ -264,9 +222,6 @@ def get_zomato_cuisine_data(filename):
 
 
 def write_zomato_cuisine_data(cuis_data, cur, conn):
-    # creating table for Cuisines
-    # cur.execute("DROP TABLE IF EXISTS Cuisines")
-    # cur.execute("CREATE TABLE Cuisines (cities TEXT PRIMARY KEY, cuisines TEXT, `Cuisine Count` INTEGER)")
 
     # writing json zomato cuisine data 
 
@@ -274,11 +229,9 @@ def write_zomato_cuisine_data(cuis_data, cur, conn):
 
         cur.execute("SELECT cities FROM Cuisines ORDER BY rowid ASC")
         cities = cur.fetchall()
-        # print(cities)
 
         city = cities[-1]
         last = city[0]
-        # print(last)
         run = False
         count = 0
 
