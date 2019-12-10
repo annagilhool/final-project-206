@@ -124,14 +124,14 @@ def write_yelp_pricing_data(rest_data, cur, conn):
     except: # empty db, put in first 20
         cur.execute("DROP TABLE IF EXISTS `Restaurants and Pricing`")
 
-        cur.execute("CREATE TABLE `Restaurants and Pricing` (rowid INTEGER PRIMARY KEY, cities TEXT, restaurants varchar(3), pricing varchar(3), avg_rating REAL)")
+        cur.execute("CREATE TABLE `Restaurants and Pricing` (rowid INTEGER PRIMARY KEY, cities TEXT, restaurants varchar(3), pricing varchar(3), avg_price REAL)")
 
         count = 0
         for data in rest_data['yelp_data']:
 
             if count < 20:
                 count += 1
-                sql_query = "INSERT INTO `Restaurants and Pricing` (rowid, cities, restaurants, pricing, avg_rating) VALUES (?, ?, ?, ?, ?)"
+                sql_query = "INSERT INTO `Restaurants and Pricing` (rowid, cities, restaurants, pricing, avg_price) VALUES (?, ?, ?, ?, ?)"
                 city = data['city']
                 results = data['results'] # dictionary 
                 top3 = results['Top 3']
