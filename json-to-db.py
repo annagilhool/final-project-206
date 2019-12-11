@@ -105,7 +105,7 @@ def write_yelp_pricing_data(rest_data, cur, conn):
             if (run == True) and (count < 20):
 
                 count += 1
-                sql_query = "INSERT INTO `Restaurants and Pricing` (cities, restaurants, pricing, avg_rating) VALUES (?, ?, ?, ?)"
+                sql_query = "INSERT INTO `Restaurants and Pricing` (cities, restaurants, pricing, avg_price) VALUES (?, ?, ?, ?)"
                 city = data['city']
                 results = data['results'] # dictionary 
                 top3 = results['Top 3']
