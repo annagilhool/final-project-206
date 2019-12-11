@@ -167,10 +167,14 @@ def write_to_db(cur, conn, ratings, prices):
 def write_to_txt_file(filename, calc_1, calc_2, calc_3, calc_4):
     full_path = os.path.join(os.path.dirname(__file__), filename)
     f = open(full_path, "a")
-    f.write(str(calc_1) + "\n")
-    f.write(str(calc_2) + "\n")
-    f.write(str(calc_3) + "\n")
-    f.write(str(calc_4) + "\n")
+    f.write("The following data represents the cuisine count for the 100 most popular cities in the US. This data was collected from the Zomato API. The data is formatted in a list of tuples. The tuples are formatted as (city, cuisine count). We calculated this data by finding all the different cuisine types in each city and then counting them. \n\n")
+    f.write(str(calc_1) + "\n" + "\n")
+    f.write("The following data represents the establishment count for the 100 most popular cities in the US. This data was collected from the Zomato API. This data is formatted in a list of tuples. The tuples are formatted as (city, establishment count). We calculated this data by finding all the different establishment types in each city and then counting them.\n\n")
+    f.write(str(calc_2) + "\n"+ "\n")
+    f.write("The following data represents the average rating for the top 3 restaurants in the 100 most popular cities in the US. This data was collected from the Yelp API. This data is formatted in a list of tuples. The tuples are formatted as (city, average rating). We calculated this data by first finding the top three restaurants in each city. Then, we found each of those restaurants ratings and finally averaged those ratings together.\n\n")
+    f.write(str(calc_3) + "\n" + "\n")
+    f.write("The following data represents the average price for the top 3 restaurants in the 100 most popular cities in the US. This data was collected from the Yelp API. This data is formatted in a list of tuples. The tuples are formatted as (city, average price). We calculated this data by first finding the top three restaurants in each city. Then, we found each of those restaurants pricing. Pricing in Yelp is formatted using the $ symbol. This ranges from $-$$$. One $ represents inexpensive, two represents moderate, and three represents pricey. We converted the symbol to a number before doing our calculations. For example, $ is equal to 1, $$ is equal to 2, and so on. Then, we averaged those numbers together and found the average price. Finally, we converted the quantitative data back to a categorical variable (e.g. moderate, pricey).\n\n")
+    f.write(str(calc_4) + "\n" + "\n")
     f.close()
 
 
